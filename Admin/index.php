@@ -1,7 +1,7 @@
-<?php
+<!-- <?php
 // require("../functions/getAllCategories.php");
 
-?>
+?> -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,7 +14,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="View/img/lueurlogo.png" rel="icon">
+    <link href="../View/img/lueurlogo.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,7 +41,7 @@
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border position-relative text-primary" style="width: 6rem; height: 6rem;" role="status"></div>
-        <img class="position-absolute top-50 start-50 translate-middle" src="View/img/lueuricon.png" alt="Icon">
+        <img class="position-absolute top-50 start-50 translate-middle" src="../View/img/lueuricon.png" alt="Icon">
     </div>
     <!-- Spinner End -->
 
@@ -340,21 +340,21 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="View/lib/wow/wow.min.js"></script>
-    <script src="View/lib/easing/easing.min.js"></script>
-    <script src="View/lib/waypoints/waypoints.min.js"></script>
-    <script src="View/lib/counterup/counterup.min.js"></script>
-    <script src="View/lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="View/lib/tempusdominus/js/moment.min.js"></script>
-    <script src="View/lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="View/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="../View/lib/wow/wow.min.js"></script>
+    <script src="../View/lib/easing/easing.min.js"></script>
+    <script src="../View/lib/waypoints/waypoints.min.js"></script>
+    <script src="../View/lib/counterup/counterup.min.js"></script>
+    <script src="../View/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../View/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="../View/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="../View/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <!-- Template Javascript -->
-    <script src="View/js/main.js"></script>
+    <script src="../View/js/main.js"></script>
 </body>
 
 </html>
