@@ -90,6 +90,39 @@
         </div>
     </nav>
     <!-- Navbar End -->
+                    <?php
+                    
+                    session_start();
+                    
+                    if(isset($_SESSION['id']))
+                    {
+                       echo' <ul>
+                        <li>
+                            <a class="page-scroll" href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="action/logout.php" data-target="logout">Log Out</a>
+                        </li>
+    
+                        </ul>';
+                    }
+                    else
+                    {
+                        echo'
+                        <ul>
+                        <li>
+                            <a class="page-scroll" href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="login/register.php" data-target="signup">Register</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="login/login.php" data-target="login">Login</a>
+                        </li>
+    
+                        </ul>';
+                    }
+                    ?>
 
 
     <!-- Page Header Start -->
