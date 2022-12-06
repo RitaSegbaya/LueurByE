@@ -132,7 +132,7 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="View/img/food.jpg" alt="">
+                        <img class="bg-img" src="View/img/consult.jpeg" alt="">
                         <div class="service-text p-5">
                             <!-- <img class="mb-4" src="View/img/food.jpg" alt="Icon"> -->
                             <h3 class="mb-3">Custom consultation</h3>
