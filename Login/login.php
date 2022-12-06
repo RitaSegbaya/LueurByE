@@ -21,7 +21,7 @@
                 <input type="password" placeholder="Password" name="password">
             </div>
             <div class="form-control">
-                <button class="btn" type="submit" name="loginCustomer">LOGIN</button>
+                <button class="btn" type="submit" name="Login">LOGIN</button>
             </div>
 
             <p>Not registered? <a href="./register.php">Create an account</a></p>
