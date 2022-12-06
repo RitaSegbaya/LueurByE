@@ -70,7 +70,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
         <a href="index.php" class="navbar-brand ms-4 ms-lg-0">
-            <h1 class="text-primary m-0"><img class="me-3" src="img/iconash.png" alt="Icon">AshGrill</h1>
+            <h1 class="text-primary m-0"><img class="me-3" src="img/lueuricon.png" alt="Icon">LueurByE</h1>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -83,10 +83,10 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu border-0 m-0">
-                        <a href="appointment.php" class="dropdown-item">Booking</a>
+                    <a href="https://eworldgh.company.site" class="dropdown-item">Main Site</a>
+                       
                        </div>
                 </div>
-                <a href="contact.php" class="nav-item nav-link">Contact</a>
             </div>
             <a href="appointment.php" class="btn btn-primary py-2 px-4 d-none d-lg-block">Booking</a>
         </div>

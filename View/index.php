@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>AshGrill</title>
+    <title>LueurbyE</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/iconash.png" rel="icon">
+    <link href="img/lueurlogo.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,7 +36,7 @@
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border position-relative text-primary" style="width: 6rem; height: 6rem;" role="status"></div>
-        <img class="position-absolute top-50 start-50 translate-middle" src="img/iconash.png" alt="Icon">
+        <img class="position-absolute top-50 start-50 translate-middle" src="img/lueuricon.png" alt="Icon">
     </div>
     <!-- Spinner End -->
 
@@ -46,8 +46,8 @@
         <div class="row gx-0 d-none d-lg-flex">
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-3">
-                    <a class="text-body px-2" href="tel:+233 20 582 5252"><i class="fa fa-phone-alt text-primary me-2"></i>+233 20 582 5252</a>
-                    <a class="text-body px-2" href="mailto:ashgrill@ashesi.edu.gh"><i class="fa fa-envelope-open text-primary me-2"></i>ashgrill@ashesi.edu.gh</a>
+                    <a class="text-body px-2" href="tel:+233 554 465 521"><i class="fa fa-phone-alt text-primary me-2"></i>+233 554 465 521</a>
+                    <a class="text-body px-2" href="mailto:orders@eworldgh.com"><i class="fa fa-envelope-open text-primary me-2"></i>orders@eworldgh.com</a>
                 </div>
             </div>
             <div class="col-lg-5 px-5 text-end">
@@ -56,10 +56,10 @@
                     <a class="text-body px-2" href="">Privacy</a>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
-                    <a class="btn btn-sm-square btn-outline-body me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-sm-square btn-outline-body me-1" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-sm-square btn-outline-body me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-sm-square btn-outline-body me-0" href=""><i class="fab fa-instagram"></i></a>
+                    
+                    <a class="btn btn-sm-square btn-outline-body me-1" href="https://twitter.com/lueurby.e"><i class="fab fa-twitter"></i></a>
+                   
+                    <a class="btn btn-sm-square btn-outline-body me-0" href="https://www.instagram.com/lueurby.e"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>
@@ -70,23 +70,23 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
         <a href="index.php" class="navbar-brand ms-4 ms-lg-0">
-            <h1 class="text-primary m-0"><img class="me-3" src="img/iconash.png" alt="Icon">AshGrill</h1>
+            <h1 class="text-primary m-0"><img class="me-3" src="img/lueuricon.png" alt="Icon">LueurByE</h1>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="../index.php" class="nav-item nav-link active">Home</a>
+                <a href="index.php" class="nav-item nav-link active">Home</a>
                 <a href="about.php" class="nav-item nav-link">About</a>
-                <a href="services.php" class="nav-item nav-link">Services</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu border-0 m-0">
                         <a href="appointment.php" class="dropdown-item">Booking</a>
-                        </div>
+                        <a href="https://eworldgh.company.site" class="dropdown-item">Main Site</a>
+                       
+                    </div>
                 </div>
-                <a href="contact.php" class="nav-item nav-link">Contact</a>
             </div>
             <a href="appointment.php" class="btn btn-primary py-2 px-4 d-none d-lg-block">Book Now!</a>
         </div>
@@ -94,78 +94,7 @@
     <!-- Navbar End -->
 
 
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="owl-carousel header-carousel position-relative">
-            <div class="owl-carousel-item position-relative" data-dot="<img src='img/ashgrill.png'>">
-                <img class="img-fluid" src="img/ashgrill.png" alt="">
-                <div class="owl-carousel-inner">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-10 col-lg-8">
-                                <h1 class="display-1 text-white animated slideInDown">Passionate About Your Business</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-3">AshGrill is the latest hub for Ashesi Student Businesses. We are a friendly and transparent Booking Agency based in Ashesi. We provide businesses an avenue to sell their goods at designated slots on campus. Accessible to
-                                    the entire Ashesi community, any day of the week!</p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="owl-carousel-item position-relative" data-dot="<img src='img/laila.jpg'>">
-                <img class="img-fluid" src="img/laila.jpg" alt="">
-                <div class="owl-carousel-inner">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-10 col-lg-8">
-                                <h1 class="display-1 text-white animated slideInDown">Student Business Highlight</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Catch Laila's Kitchenette Here from 3pm each day.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <!-- Carousel End -->
-
-
-    <!-- Facts Start -->
-    <div class="container-xxl py-5">
-        <div class="container pt-5">
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="fact-item text-center bg-light h-100 p-5 pt-0">
-                        <div class="fact-icon">
-                            <img src="img/icons/icon-2.png" alt="Icon">
-                        </div>
-                        <h3 class="mb-3">Advertise</h3>
-                        <p class="mb-0">Reach and enrich your customer base across Ashesi.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="fact-item text-center bg-light h-100 p-5 pt-0">
-                        <div class="fact-icon">
-                            <img src="img/icons/icon-3.png" alt="Icon">
-                        </div>
-                        <h3 class="mb-3">Innovative Solutions</h3>
-                        <p class="mb-0">Your business is the solution to many problems. meet that impromptu need</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="fact-item text-center bg-light h-100 p-5 pt-0">
-                        <div class="fact-icon">
-                            <img src="img/icons/icon-4.png" alt="Icon">
-                        </div>
-                        <h3 class="mb-3">Timely Booking</h3>
-                        <p class="mb-0">Secure your spot in under 20 minutes, show up and make mad money! </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Facts End -->
+    
 
 
     <!-- About Start -->
@@ -174,17 +103,18 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <div class="about-img">
-                        <img class="img-fluid" src="img/ashgrill.png" alt="">
-                        <img class="img-fluid" src="img/ashgrill.png" alt="">
+                        <img class="img-fluid" src="img/lueurlogo.png" alt="">
+                        <img class="img-fluid" src="img/lueur.png" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <h4 class="section-title">About Us</h4>
-                    <h1 class="display-5 mb-4">Your easiest access to all members of the Ashesi community</h1>
-                    <p>AshGrill is the latest hub for Ashesi Student Businesses. We are a friendly and transparent Booking Agency based in Ashesi. We provide businesses an avenue to sell their goods at designated slots on campus. Accessible to the entire
-                        Ashesi community, any day of the week! Expand the scope of your clientele.
-                    </p>
+                    <h1 class="display-5 mb-4">At The E World, we take pride in everything we produce. </h1>
+                    <p> Although our industry began not long ago, our priority is attention to detail, the quality of our goods and our care for those who use our product. 
 
+                    Hey there, welcome to The E World, your number one source for all things skincare. We're dedicated to providing you the very best of beauty products with an emphasis on quality, sustainable sources and pocket-friendliness.
+                    </p>
+                
                 </div>
             </div>
         </div>
@@ -197,54 +127,24 @@
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h4 class="section-title">Our Services</h4>
-                <h1 class="display-5 mb-4">We Focused On Modern Architecture And Interior Design</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/food.jpg" alt="">
+                        <img class="bg-img" src="img/consult.jpeg" alt="">
                         <div class="service-text p-5">
-                            <img class="mb-4" src="img/food.jpg" alt="Icon">
-                            <h3 class="mb-3">Food</h3>
+                            <h3 class="mb-3">Custom consultation</h3>
                             <p class="mb-4">1 hour</p>
-                            <p class="mb-4">GHC50.00</p>
+                            <p class="mb-4">GHC60.00</p>
                             <a class="btn" href="appointment.php"><i class="fa fa-plus text-primary me-3"></i>Book Now</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/snacks.jpg" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-4" src="img/snacks.jpg" alt="Icon">
-                            <h3 class="mb-3">Snacks</h3>
-                            <p class="mb-4">1 hour</p>
-                            <p class="mb-4">GHC50.00</p>
-                            <a class="btn" href="appointment.php"><i class="fa fa-plus text-primary me-3"></i>Book Now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/clothes.jpeg" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-4" src="img/clothes.jpg" alt="Icon">
-                            <h3 class="mb-3">Clothes</h3>
-                            <p class="mb-4">1 hour</p>
-                            <p class="mb-4">GHC50.00</p>
-                            <a class="btn" href="appointment.php"><i class="fa fa-plus text-primary me-3"></i>Book Now</a>
-                        </div>
-                    </div>
-                </div>
-
-
+                
             </div>
         </div>
     </div>
     <!-- Service End -->
-
-
-
 
 
     <!-- Contact Start -->
@@ -261,7 +161,7 @@
                                 </div>
                                 <div class="ms-4">
                                     <p class="mb-2">Call Us Now</p>
-                                    <h3 class="mb-0">+233 20 582 5252</h3>
+                                    <h3 class="mb-0">+233 554 465 521</h3>
                                 </div>
                             </div>
                         </div>
@@ -272,7 +172,7 @@
                                 </div>
                                 <div class="ms-4">
                                     <p class="mb-2">Mail Us Now</p>
-                                    <h3 class="mb-0">ashgrill@ashesi.edu.gh</h3>
+                                    <h3 class="mb-0">orders@eworldgh.com</h3>
                                 </div>
                             </div>
                         </div>
@@ -289,24 +189,8 @@
                         <div class="col-12 col-sm-6">
                             <input type="text" class="form-control" placeholder="Your Mobile" style="height: 55px;">
                         </div>
-                        <div class="col-12 col-sm-6">
-                            <select class="form-select" style="height: 55px;">
-                                <option selected>Choose Service</option>
-                                <option value="1">Food</option>
-                                <option value="2">Snacks</option>
-                                <option value="3">Clothes</option>
-                            </select>
-                        </div>
-                        <!-- <div class="col-12 col-sm-6">
-                            <div class="date" id="date" data-target-input="nearest">
-                                <input type="text" class="form-control datetimepicker-input" placeholder="Choose Date" data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
-                            </div>
-                        </div> -->
-                        <!-- <div class="col-12 col-sm-6">
-                            <div class="time" id="time" data-target-input="nearest">
-                                <input type="text" class="form-control datetimepicker-input" placeholder="Choose Date" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
-                            </div>
-                        </div> -->
+                     
+                      
                         <div class="col-12">
                             <textarea class="form-control" rows="5" placeholder="Message"></textarea>
                         </div>
@@ -320,16 +204,13 @@
     </div>
     <!-- Contact End -->
 
+ <!-- Google Map Start -->
+ <div class="container-xxl pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d62879.125634949785!2d-0.26292653923761206!3d5.56416341868399!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a235ff61e4b263b!2sThe%20E%20World%20%7C%20Lueur%20by%20E!5e0!3m2!1sen!2sgh!4v1670315708514!5m2!1sen!2sgh" width="1400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-    <!-- Google Map Start -->
-    <div class="container-xxl pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
-        <iframe class="w-100 mb-n2" style="height: 450px;"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1984.833306011357!2d-0.22221917359372956!3d5.761027758939874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf767731dfa583%3A0xc30b0f51f3b91add!2sAshesi%20University!5e0!3m2!1sen!2sgh!4v1669101298561!5m2!1sen!2sgh"
-            frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
     <!-- Google Map End -->
-
-     <!-- Footer Start -->
+    <!-- Footer Start -->
     <div class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
@@ -348,7 +229,6 @@
                 <div class="col-lg-3 col-md-6">
                     <h3 class="text-light mb-4">Quick Links</h3>
                     <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
                     <a class="btn btn-link" href="">Our Services</a>
                     <a class="btn btn-link" href="">Terms & Condition</a>
                     <a class="btn btn-link" href="">Support</a>
