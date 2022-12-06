@@ -20,10 +20,10 @@ if (isset($_POST['Login'])){
         $_SESSION['role'] = $check['user_role'];
 
         if ($_SESSION['role']==2){
-            header ('Location:../index.php');
+            header ('Location:../View/index.php');
         }
         else{
-            header('location:../index.php');
+            header('location:../Admin/index.php');
         }
     }
     else{
