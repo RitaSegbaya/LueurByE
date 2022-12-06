@@ -143,6 +143,7 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="row g-3">
+                    <form action="confirm.php" method="post">
                         <div class="col-12 col-sm-6">
                             <input type="text" class="form-control" placeholder="Your Name" style="height: 55px;">
                         </div>
@@ -178,8 +179,10 @@
                             <textarea class="form-control" rows="5" placeholder="Message"></textarea>
                         </div>
                         <div class="col-12">
-                            <button class="btn btn-primary w-100 py-3" type="submit" formaction="confirm.php" formmethod="post">Book Appointment</button>
+                            <input type="submit"></input>
+                            <!-- <button class="btn btn-primary w-100 py-3" type="submit" formaction="confirm.php" formmethod="post">Book Appointment</button> -->
                         </div>
+                    </form>
                     </div>
                 </div>
             </div>
