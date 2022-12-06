@@ -123,8 +123,11 @@
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <h4 class="section-title">About Us</h4>
-                    <h1 class="display-5 mb-4">Your easiest access to all members of the Ashesi community</h1>
-                    <p>AshGrill is the latest hub for Ashesi Student Businesses. We are a friendly and transparent Booking Agency based in Ashesi. We provide businesses an avenue to sell their goods at designated slots on campus. Accessible to the entire Ashesi community, any day of the week! Expand the scope of your clientele.</p>
+                    <h1 class="display-5 mb-4">At The E World, we take pride in everything we produce. </h1>
+                    <p> Although our industry began not long ago, our priority is attention to detail, the quality of our goods and our care for those who use our product. 
+
+                    Hey there, welcome to The E World, your number one source for all things skincare. We're dedicated to providing you the very best of beauty products with an emphasis on quality, sustainable sources and pocket-friendliness.
+                    </p>
               
                 </div>
             </div>
