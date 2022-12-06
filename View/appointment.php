@@ -178,7 +178,7 @@
                             <textarea class="form-control" rows="5" placeholder="Message"></textarea>
                         </div>
                         <div class="col-12">
-                            <button class="btn btn-primary w-100 py-3" type="submit">Book Appointment</button>
+                            <button class="btn btn-primary w-100 py-3" type="submit" formaction="confirm.php" formmethod="post">Book Appointment</button>
                         </div>
                     </div>
                 </div>
