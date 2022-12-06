@@ -92,16 +92,16 @@
     <!-- Navbar End -->
                     <!-- <?php
                     
-                    session_start();
+                    // session_start();
                     
-                    if(isset($_SESSION['id']))
-                    {
-                       echo header(Login/login.php);
-                    }
-                    else
-                    {
-                        echo header(../Login/login.php);
-                    }
+                    // if(isset($_SESSION['id']))
+                    // {
+                    //    echo header(Login/login.php);
+                    // }
+                    // else
+                    // {
+                    //     echo header(../Login/login.php);
+                    // }
                     ?> -->
 
 
