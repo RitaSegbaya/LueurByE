@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>AshGrill</title>
+    <title>LueurbyE</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/iconash.png" rel="icon">
+    <link href="img/lueurlogo.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,7 +36,7 @@
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border position-relative text-primary" style="width: 6rem; height: 6rem;" role="status"></div>
-        <img class="position-absolute top-50 start-50 translate-middle" src="img/ashgrill.png" alt="Icon">
+        <img class="position-absolute top-50 start-50 translate-middle" src="img/lueuricon.png" alt="Icon">
     </div>
     <!-- Spinner End -->
 
@@ -46,8 +46,8 @@
         <div class="row gx-0 d-none d-lg-flex">
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-3">
-                    <a class="text-body px-2" href="tel:+0123456789"><i class="fa fa-phone-alt text-primary me-2"></i>+233205825252</a>
-                    <a class="text-body px-2" href="mailto:ashgrill@ashesi.edu.gh"><i class="fa fa-envelope-open text-primary me-2"></i>ashgrill@ashesi.edu.gh</a>
+                    <a class="text-body px-2" href="tel:+233 554 465 521"><i class="fa fa-phone-alt text-primary me-2"></i>+233 554 465 521</a>
+                    <a class="text-body px-2" href="mailto:orders@eworldgh.com"><i class="fa fa-envelope-open text-primary me-2"></i>orders@eworldgh.com</a>
                 </div>
             </div>
             <div class="col-lg-5 px-5 text-end">
@@ -56,10 +56,10 @@
                     <a class="text-body px-2" href="">Privacy</a>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
-                    <a class="btn btn-sm-square btn-outline-body me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-sm-square btn-outline-body me-1" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-sm-square btn-outline-body me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-sm-square btn-outline-body me-0" href=""><i class="fab fa-instagram"></i></a>
+                    
+                    <a class="btn btn-sm-square btn-outline-body me-1" href="https://twitter.com/lueurby.e"><i class="fab fa-twitter"></i></a>
+                   
+                    <a class="btn btn-sm-square btn-outline-body me-0" href="https://www.instagram.com/lueurby.e"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
         <a href="../index.php" class="navbar-brand ms-4 ms-lg-0">
-            <h1 class="text-primary m-0"><img class="me-3" src="img/iconash.png" alt="Icon">AshGrill</h1>
+            <h1 class="text-primary m-0"><img class="me-3" src="img/lueuricon.png" alt="Icon">LueurByE</h1>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -79,18 +79,16 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="../index.php" class="nav-item nav-link">Home</a>
                 <a href="about.php" class="nav-item nav-link">About</a>
-                <a href="services.php" class="nav-item nav-link active">Services</a>
+                <a href="#" class="nav-item nav-link active">Services</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu border-0 m-0">
-                        
-                        <a href="appointment.php" class="dropdown-item">Booking</a>
-
+                        <a href="View/appointment.php" class="dropdown-item">Booking</a>
+                        <a href="https://eworldgh.company.site" class="dropdown-item">Main Site</a>
+                       
                     </div>
                 </div>
-                <a href="contact.php" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="appointment.php" class="btn btn-primary py-2 px-4 d-none d-lg-block">Booking</a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -119,19 +117,30 @@
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h4 class="section-title">Our Services</h4>
             </div>
+            <p>1 slot = 60 minutes
+
+            Our conversation will pry a little into your personal life and fish answers concerning your genetics, environment and lifestyle.
+
+            Through this conversation, we will give you a list of products that may contain similar active ingredients for you to select a minimum of one to address the issue at hand.
+
+            These products will be formulated and tested over a seven-day period before sent to you
+
+            By scheduling this consultation, you get access to free expertise advice as well as zero formulation fee for your products.
+
+            </p>
             <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <!-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item d-flex position-relative text-center h-100">
                         <img class="bg-img" src="img/food.jpg" alt="">
-                        <div class="service-text p-5">
+                        <div class="service-text p-5"> -->
                             <!-- <img class="mb-4" src="img/food.jpg" alt="Icon"> -->
-                            <h3 class="mb-3">Food</h3>
+                            <!-- <h3 class="mb-3">Food</h3>
                             <p class="mb-4">1 hour</p>
                             <p class="mb-4">GHC50.00</p>
                             <a class="btn" href="appointment.php"><i class="fa fa-plus text-primary me-3"></i>Book Now</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item d-flex position-relative text-center h-100">
                         <img class="bg-img" src="img/snacks.jpg" alt="">
@@ -144,18 +153,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                <!-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item d-flex position-relative text-center h-100">
                         <img class="bg-img" src="img/clothes.jpg" alt="">
-                        <div class="service-text p-5">
+                        <div class="service-text p-5"> -->
                             <!-- <img class="mb-4" src="View/img/clothes.jpg" alt="Icon"> -->
-                            <h3 class="mb-3">Clothes</h3>
+                            <!-- <h3 class="mb-3">Clothes</h3>
                             <p class="mb-4">1 hour</p>
                             <p class="mb-4">GHC50.00</p>
                             <a class="btn" href="appointment.php"><i class="fa fa-plus text-primary me-3"></i>Book Now</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
