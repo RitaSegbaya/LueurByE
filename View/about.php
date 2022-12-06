@@ -117,8 +117,8 @@
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <div class="about-img">
                         
-                    <img class="img-fluid" src="View/img/lueurlogo.png" alt="">
-                    <img class="img-fluid" src="View/img/lueur.png" alt="">
+                    <img class="img-fluid" src="img/lueurlogo.png" alt="">
+                    <img class="img-fluid" src="img/lueur.png" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
