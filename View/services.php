@@ -129,42 +129,20 @@
 
             </p>
             <div class="row g-4">
-                <!-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/food.jpg" alt="">
-                        <div class="service-text p-5"> -->
-                            <!-- <img class="mb-4" src="img/food.jpg" alt="Icon"> -->
-                            <!-- <h3 class="mb-3">Food</h3>
-                            <p class="mb-4">1 hour</p>
-                            <p class="mb-4">GHC50.00</p>
-                            <a class="btn" href="appointment.php"><i class="fa fa-plus text-primary me-3"></i>Book Now</a>
-                        </div>
-                    </div>
-                </div> -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/snacks.jpg" alt="">
+                        <img class="bg-img" src="View/img/consult.jpeg" alt="">
                         <div class="service-text p-5">
-                            <!-- <img class="mb-4" src="img/snacks.jpg" alt="Icon"> -->
-                            <h3 class="mb-3">Snacks</h3>
+                            <!-- <img class="mb-4" src="View/img/food.jpg" alt="Icon"> -->
+                            <h3 class="mb-3">Custom consultation</h3>
                             <p class="mb-4">1 hour</p>
-                            <p class="mb-4">GHC50.00</p>
-                            <a class="btn" href="appointment.php"><i class="fa fa-plus text-primary me-3"></i>Book Now</a>
+                            <p class="mb-4">GHC60.00</p>
+                            <a class="btn" href="View/appointment.php"><i class="fa fa-plus text-primary me-3"></i>Book Now</a>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/clothes.jpg" alt="">
-                        <div class="service-text p-5"> -->
-                            <!-- <img class="mb-4" src="View/img/clothes.jpg" alt="Icon"> -->
-                            <!-- <h3 class="mb-3">Clothes</h3>
-                            <p class="mb-4">1 hour</p>
-                            <p class="mb-4">GHC50.00</p>
-                            <a class="btn" href="appointment.php"><i class="fa fa-plus text-primary me-3"></i>Book Now</a>
-                        </div>
-                    </div>
-                </div> -->
+              
             </div>
         </div>
     </div>
@@ -178,22 +156,16 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h3 class="text-light mb-4">Address</h3>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>1 University Avenue</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+233 20 582 5252</p>
-                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>ashgrill@ashesi.edu.gh</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>3rd Mosque Rd, Accra</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+233 554 465 521</p>
+                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>orders@eworldgh.com</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-outline-body me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-outline-body me-1" href="https://twitter.com/lueurby.e"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-body me-1" href="https://www.instagram.com/lueurby.e"><i class="fab fa-instagram"></i></a>
                     </div>
+                       
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="text-light mb-4">Services</h3>
-                    <a class="btn btn-link" href="">Food</a>
-                    <a class="btn btn-link" href="">Snacks</a>
-                    <a class="btn btn-link" href="">Clothes</a>
-                </div>
+                
                 <div class="col-lg-3 col-md-6">
                     <h3 class="text-light mb-4">Quick Links</h3>
                     <a class="btn btn-link" href="">About Us</a>
@@ -215,12 +187,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a href="#">AshGrill</a>, All Right Reserved.
+                        &copy; <a href="#">LueurByE</a>, All Right Reserved.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
                         Designed By <a href="https://htmlcodex.com">HTML Codex</a>
-
+                        <br> Distributed By: <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
                     </div>
                 </div>
             </div>
