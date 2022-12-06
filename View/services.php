@@ -83,7 +83,7 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu border-0 m-0">
-                        <a href="View/appointment.php" class="dropdown-item">Booking</a>
+                        <a href="appointment.php" class="dropdown-item">Booking</a>
                         <a href="https://eworldgh.company.site" class="dropdown-item">Main Site</a>
                        
                     </div>
