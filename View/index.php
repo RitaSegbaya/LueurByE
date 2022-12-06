@@ -1,3 +1,8 @@
+<?php 
+    session_start();
+    // require_once("../functions/display_booking.php");
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -88,7 +93,9 @@
                     </div>
                 </div>
             </div>
-            <a href="appointment.php" class="btn btn-primary py-2 px-4 d-none d-lg-block">Book Now!</a>
+            <a href="<?php if(isset($_SESSION['isLogin'])) 
+                                echo "../Login/login.php";
+            ?>" class="btn btn-primary py-2 px-4 d-none d-lg-block">Booking</a>
         </div>
     </nav>
     <!-- Navbar End -->
