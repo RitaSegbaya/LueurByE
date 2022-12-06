@@ -90,7 +90,7 @@
         </div>
     </nav>
     <!-- Navbar End -->
-                    <?php
+                    <!-- <?php
                     
                     session_start();
                     
@@ -102,7 +102,7 @@
                     {
                         echo header(../Login/login.php);
                     }
-                    ?>
+                    ?> -->
 
 
     <!-- Page Header Start -->
