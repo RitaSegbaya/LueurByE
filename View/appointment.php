@@ -100,7 +100,7 @@
                     }
                     else
                     {
-                        echo'(Login/login.php)';
+                        echo'header(Login/login.php)';
                     }
                     ?>
 
