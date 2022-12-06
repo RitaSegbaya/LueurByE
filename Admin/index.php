@@ -1,7 +1,4 @@
-<!-- <?php
-// require("../functions/getAllCategories.php");
 
-?> -->
 
 <!DOCTYPE html>
 <html lang="en">
