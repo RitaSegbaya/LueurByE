@@ -1,5 +1,5 @@
 <?php
-require("../functions/getAllCategories.php");
+// require("../functions/getAllCategories.php");
 
 ?>
 
