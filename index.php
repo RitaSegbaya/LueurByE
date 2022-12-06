@@ -82,13 +82,13 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu border-0 m-0">
-                        <a href="View/appointment.php" class="dropdown-item">Booking</a>
+                        <a href="Login/login.php" class="dropdown-item">Booking</a>
                         <a href="https://eworldgh.company.site" class="dropdown-item">Main Site</a>
                        
                     </div>
                 </div>
             </div>
-            <a href="View/appointment.php" class="btn btn-primary py-2 px-4 d-none d-lg-block">Book Now!</a>
+            <a href="Login/login.php" class="btn btn-primary py-2 px-4 d-none d-lg-block">Book Now!</a>
         </div>
     </nav>
     <!-- Navbar End -->
