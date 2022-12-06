@@ -1,20 +1,17 @@
-<?php
-require("../functions/getAllCategories.php");
 
-?>
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>AshGrill</title>
+    <title>LueurbyE</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/iconash" rel="icon">
+    <link href="../View/img/lueurlogo.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,23 +23,22 @@ require("../functions/getAllCategories.php");
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="../View/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../View/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../View/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="../View/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../View/css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border position-relative text-primary" style="width: 6rem; height: 6rem;" role="status"></div>
-        <img class="position-absolute top-50 start-50 translate-middle" src="img/iconash.png" alt="Icon">
+        <img class="position-absolute top-50 start-50 translate-middle" src="../View/img/lueuricon.png" alt="Icon">
     </div>
     <!-- Spinner End -->
 
@@ -52,8 +48,8 @@ require("../functions/getAllCategories.php");
         <div class="row gx-0 d-none d-lg-flex">
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-3">
-                    <a class="text-body px-2" href="tel:+0123456789"><i class="fa fa-phone-alt text-primary me-2"></i>+233205825252</a>
-                    <a class="text-body px-2" href="mailto:ashgrill@ashesi.edu.gh"><i class="fa fa-envelope-open text-primary me-2"></i>ashgrill@ashesi.edu.gh</a>
+                    <a class="text-body px-2" href="tel:+233 554 465 521"><i class="fa fa-phone-alt text-primary me-2"></i>+233 554 465 521</a>
+                    <a class="text-body px-2" href="mailto:orders@eworldgh.com"><i class="fa fa-envelope-open text-primary me-2"></i>orders@eworldgh.com</a>
                 </div>
             </div>
             <div class="col-lg-5 px-5 text-end">
@@ -62,21 +58,22 @@ require("../functions/getAllCategories.php");
                     <a class="text-body px-2" href="">Privacy</a>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
-                    <a class="btn btn-sm-square btn-outline-body me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-sm-square btn-outline-body me-1" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-sm-square btn-outline-body me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-sm-square btn-outline-body me-0" href=""><i class="fab fa-instagram"></i></a>
+                    
+                    <a class="btn btn-sm-square btn-outline-body me-1" href="https://twitter.com/lueurby.e"><i class="fab fa-twitter"></i></a>
+                   
+                    <a class="btn btn-sm-square btn-outline-body me-0" href="https://www.instagram.com/lueurby.e"><i class="fab fa-instagram"></i></a>
+
+                    <a href="https://meet.google.com/new?hs=180&amp;authuser=0" target="_top" title="Start a meeting" aria-label="Start a meeting" draggable="false">Start a meeting</a>
                 </div>
             </div>
         </div>
     </div>
     <!-- Topbar End -->
 
-
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
         <a href="index.php" class="navbar-brand ms-4 ms-lg-0">
-            <h1 class="text-primary m-0"><img class="me-3" src="img/iconash.png" alt="Icon">AshGrill</h1>
+            <h1 class="text-primary m-0"><img class="me-3" src="img/lueuricon.png" alt="Icon">LueurByE</h1>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -153,10 +150,10 @@ require("../functions/getAllCategories.php");
                         </div>
 
 
-                        <div class="form-outline mb-4">
+                        <!-- <div class="form-outline mb-4">
                             <label class="form-label" for="formEmail">Categories</label>
                             <?php   getAllCategories(); ?>
-                        </div>
+                        </div> -->
 
                         <div class="form-outline mb-4">
                             <label class="form-label" for="formPassword">Price</label>
@@ -198,10 +195,10 @@ require("../functions/getAllCategories.php");
                 </div>
                 <div class="modal-body">
                     <form action="../Actions/create_appointment.php" method="GET">
-                        <div class="form-outline mb-4">
-                            <label class="form-label" for="formName">Appointment Date</label>
-                            <input type="date" id="formEmail" name="appointment_date" class="form-control" placeholder="full name" required />
-                        </div>
+                        <!-- <div class="form-outline mb-4">
+                            <label class="form-label" for="formName">Appointment</label>
+                            <input type="time" id="formEmail" name="appointment_time" class="form-control" placeholder="time" required />
+                        </div> -->
 
 
                         <!-- <div class="form-outline mb-4">
@@ -272,9 +269,9 @@ require("../functions/getAllCategories.php");
 
 
     <!-- Google Map Start -->
-    <!-- <div class="container-xxl pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
-        <iframe class="w-100 mb-n2" style="height: 450px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </div> -->
+    <div class="container-xxl pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
+    <iframe src="https://calendar.google.com/calendar/embed?src=9469d6c37579c70203215c085a18530efe6b28a0332c869f04356a4094089023%40group.calendar.google.com&ctz=Etc%2FGMT" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
     <!-- Google Map End -->
 
 
@@ -342,21 +339,21 @@ require("../functions/getAllCategories.php");
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="../View/lib/wow/wow.min.js"></script>
+    <script src="../View/lib/easing/easing.min.js"></script>
+    <script src="../View/lib/waypoints/waypoints.min.js"></script>
+    <script src="../View/lib/counterup/counterup.min.js"></script>
+    <script src="../View/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../View/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="../View/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="../View/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="../View/js/main.js"></script>
 </body>
 
 </html>
