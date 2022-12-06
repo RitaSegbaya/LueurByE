@@ -8,11 +8,11 @@ include("../Classes/customer_class.php");
 
 
 //--INSERT--//
-function customer_register_ctr($email,$Password,$Number,$name,$Businessname,$student_id,$user_role)
+function customer_register_ctr($name,$email,$Password,$user_role)
 {
     $newuser_added= new customer_class();
 
-    return $newuser_added->customer_register_cls($email,$Password,$Number,$name,$Businessname,$student_id,$user_role);
+    return $newuser_added->customer_register_cls($name,$email,$Password,$user_role);
 }
 
 function select_customer_ctr($email,$Password){

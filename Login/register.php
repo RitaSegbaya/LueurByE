@@ -10,9 +10,9 @@
 <body>
     <div class="form">
         <h1>Sign Up</h1>
-        <form action="registerprocess.php" method="POST">
+        <form action="register_process.php" method="POST">
             <div class="form-control">
-                <input type="text" placeholder="Full name" name="name" id="name" required>
+                <input type="text" placeholder="Full name" name="fullname" id="name" required>
             </div>
 
             <div class="form-control">

@@ -16,7 +16,7 @@ if (isset($_POST['Login'])){
     {
         //Start session and set session id
         session_start();
-        $_SESSION['cid'] = $check['customer_id'];
+        $_SESSION['cid'] = $check['id'];
         $_SESSION['role'] = $check['user_role'];
 
         if ($_SESSION['role']==1){
