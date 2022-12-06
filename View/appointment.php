@@ -142,46 +142,47 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="row g-3">
-                    <form action="confirm.php" method="post">
-                        <div class="col-12 col-sm-6">
+                    <form class="col-12 col-sm-6" action="confirm.php" method="post">
+                        <div class="row g-3">
+                    
+                            <div class="col-12 col-sm-6">
                             <input type="text" class="form-control" placeholder="Your Name" style="height: 55px;">
-                        </div>
-                        <div class="col-12 col-sm-6">
+                            </div>
+                            <div class="col-12 col-sm-6">
                             <input type="email" class="form-control" placeholder="Your Email" style="height: 55px;">
-                        </div>
-                        <div class="col-12 col-sm-6">
+                            </div>
+                            <div class="col-12 col-sm-6">
                             <input type="text" class="form-control" placeholder="Your Mobile" style="height: 55px;">
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <select class="form-select" style="height: 55px;">
-                                <option selected>Choose Service</option>
-                                <option value="1">Food </option>
-                                <option value="2">Snacks</option>
-                                <option value="3">Clothes</option>
-                            </select>
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <div class="date" id="date" data-target-input="nearest">
-                                <input type="text"
-                                    class="form-control datetimepicker-input"
-                                    placeholder="Choose Date" data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
                             </div>
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <div class="time" id="time" data-target-input="nearest">
-                                <input type="text"
-                                    class="form-control datetimepicker-input"
-                                    placeholder="Choose Time" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
+                            <div class="col-12 col-sm-6">
+                                <select class="form-select" style="height: 55px;">
+                                    <option selected>Choose Service</option>
+                                    <option value="1">Food </option>
+                                    <option value="2">Snacks</option>
+                                    <option value="3">Clothes</option>
+                                </select>
                             </div>
-                        </div>
-                        <div class="col-12">
-                            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
-                        </div>
-                        <div class="col-12">
-                            <input type="submit"></input>
-                            <!-- <button class="btn btn-primary w-100 py-3" type="submit" formaction="confirm.php" formmethod="post">Book Appointment</button> -->
-                        </div>
+                            <div class="col-12 col-sm-6">
+                                <div class="date" id="date" data-target-input="nearest">
+                                    <input type="text"
+                                        class="form-control datetimepicker-input"
+                                        placeholder="Choose Date" data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <div class="time" id="time" data-target-input="nearest">
+                                    <input type="text"
+                                        class="form-control datetimepicker-input"
+                                        placeholder="Choose Time" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <input type="submit"></input>
+                                <button class="btn btn-primary w-100 py-3" type="submit" formaction="confirm.php" formmethod="post">Book Appointment</button>
+                            </div>
                     </form>
                     </div>
                 </div>
