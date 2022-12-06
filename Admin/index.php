@@ -63,7 +63,7 @@
                    
                     <a class="btn btn-sm-square btn-outline-body me-0" href="https://www.instagram.com/lueurby.e"><i class="fab fa-instagram"></i></a>
 
-                    <!-- <a href="https://meet.google.com/new?hs=180&amp;authuser=0" target="_top" title="Start a meeting" aria-label="Start a meeting" draggable="false">Start a meeting</a> -->
+                    <a href="https://meet.google.com/new?hs=180&amp;authuser=0" target="_top" title="Start a meeting" aria-label="Start a meeting" draggable="false">Start a meeting</a>
                 </div>
             </div>
         </div>
@@ -150,10 +150,10 @@
                         </div>
 
 
-                        <div class="form-outline mb-4">
+                        <!-- <div class="form-outline mb-4">
                             <label class="form-label" for="formEmail">Categories</label>
                             <?php   getAllCategories(); ?>
-                        </div>
+                        </div> -->
 
                         <div class="form-outline mb-4">
                             <label class="form-label" for="formPassword">Price</label>
