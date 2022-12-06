@@ -96,11 +96,11 @@
                     
                     if(isset($_SESSION['id']))
                     {
-                       echo 'Login/login.php';
+                       echo 'header(Login/login.php)';
                     }
                     else
                     {
-                        echo'Login/login.php';
+                        echo'(Login/login.php)';
                     }
                     ?>
 
