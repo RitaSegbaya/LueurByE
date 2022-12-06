@@ -19,8 +19,8 @@ if (isset($_POST['Login'])){
         $_SESSION['cid'] = $check['id'];
         $_SESSION['role'] = $check['user_role'];
 
-        if ($_SESSION['role']==1){
-            header ('Location:../Admin/admin_index.php');
+        if ($_SESSION['role']==2){
+            header ('Location:../index.php');
         }
         else{
             header('location:../index.php');
