@@ -207,7 +207,7 @@
 
  <!-- Google Map Start -->
  <div class="container-xxl pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d62879.125634949785!2d-0.26292653923761206!3d5.56416341868399!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a235ff61e4b263b!2sThe%20E%20World%20%7C%20Lueur%20by%20E!5e0!3m2!1sen!2sgh!4v1670315708514!5m2!1sen!2sgh" width="1400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d62879.125634949785!2d-0.26292653923761206!3d5.56416341868399!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a235ff61e4b263b!2sThe%20E%20World%20%7C%20Lueur%20by%20E!5e0!3m2!1sen!2sgh!4v1670315708514!5m2!1sen!2sgh" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     </div>
     <!-- Google Map End -->
