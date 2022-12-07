@@ -9,12 +9,15 @@ include ('../Controllers/customer_controller.php');
 if (isset($_POST['Login'])){
     $email = $_POST['Email'];
     $Password = $_POST['Password'];
-    $Password=password_hash($Password,PASSWORD_DEFAULT);
+    
 
-    $check = select_customer_ctr($email,$Password);
+    $check = select_customer_ctr($email);
     
     if ($check)
     {
+        if(password_verify($Password,$check['password'])){
+            echo ("Success");
+        }
         //Start session and set session id
         session_start();
         $_SESSION['cid'] = $check['id'];
