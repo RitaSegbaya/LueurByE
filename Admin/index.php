@@ -92,9 +92,7 @@
             Create Appointment
         </a>
         <span>&nbsp;</span>
-        <a type="button" class="btn btn-primary py-2 px-4 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#exampleModalService">
-            Add a service
-        </a>
+        <a href="calendar/index.php" class="btn btn-primary py-2 px-4 d-none d-lg-block">Calendar</a>
         <span>&nbsp;</span>
         <a href="../Login/login.php" class="btn btn-primary py-2 px-4 d-none d-lg-block">Logout</a>
         </div>
@@ -110,7 +108,6 @@
     <!-- Page Header End -->
 
 
-    <?php include ('calender/index.php');?>
 
 
     <!-- Footer Start -->
