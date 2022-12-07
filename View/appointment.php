@@ -168,22 +168,22 @@
                                 <div class="date" id="date" data-target-input="nearest">
                                     <input type="text"
                                         class="form-control datetimepicker-input"
-                                        placeholder="Choose Date" data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
+                                        placeholder="Choose Date" data-target="#date" data-toggle="datetimepicker" style="height: 55px;" name="date">
                                 </div>
                             </div>
                             <div class="col-12 col-sm-6">
                                 <div class="time" id="time" data-target-input="nearest">
                                     <input type="text"
                                         class="form-control datetimepicker-input"
-                                        placeholder="Choose Time" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
+                                        placeholder="Choose Time" data-target="#time" data-toggle="datetimepicker" style="height: 55px;" name="time">
                                 </div>
                             </div>
                             <div class="col-12">
-                                <textarea class="form-control" rows="5" placeholder="Title"></textarea>
+                                <textarea class="form-control" rows="5" placeholder="Title" name="title"></textarea>
                             </div>
                             <div class="col-12">
                                 
-                                <button class="btn btn-primary w-100 py-3" type="submit" >Book Appointment</button>
+                                <button class="btn btn-primary w-100 py-3" type="submit" name="book" >Book Appointment</button>
                             </div>
                     </form>
                     </div>
