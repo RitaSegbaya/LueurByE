@@ -120,7 +120,7 @@ $total = $_POST['total'];
     <input type="payment" name="payment" placeholder="Payment" id="amount" value="<?php echo $total; ?>"required></br>
     <button type="submit" onclick="payWithPaystack()"> Pay </button>
     </form>
-    <script src= "View/js/payment.js"></script>
+    <script src= "js/payment.js"></script>
 
 
 
