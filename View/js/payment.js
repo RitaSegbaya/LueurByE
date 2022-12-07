@@ -27,7 +27,7 @@ function payWithPaystack(e) {
                 }
 
             });
-            window.location.href = "../index.php";
+            window.location.href = "../mail.php";
         }
     });
 

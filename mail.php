@@ -1,13 +1,13 @@
 <?php
     session_start();
-    $email=$_POST['email'];
-    echo $email;
+    $email=echo $_SESSION['email'];
+   
 
 
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\SMTP;
-    $username=$_POST['name'];
-    $email=$_POST['email'];
+    // $username=$_POST['name'];
+    // $email=$_POST['email'];
     function sendmail(){
         $name = "LueurbyE";  // Name of your website or yours
         $to = $email;  // mail of reciever
@@ -48,7 +48,7 @@
         //Email Settings
         $mail->isHTML(true);
         $mail->setFrom('wecreategh2812@gmail.com', 'LueurByE');
-        $mail->addAddress('rita.segbaya@ashesi.edu.gh'); // enter email address whom you want to send
+        $mail->addAddress('$email'); // enter email address whom you want to send
         $mail->Subject = ($subject);
         $mail->Body = $body;
         if ($mail->send()) {
