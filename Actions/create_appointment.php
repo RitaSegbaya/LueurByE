@@ -6,17 +6,14 @@
 
     if(isset($_POST['book'])){
 
-        $start_date = $_POST['date'];
+        $date = $_POST['date'];
         $end_date = $_POST['date'];
         $title = $_POST['title'];
 
+        $start_date=date("Y-m-d",strtotime($date));
         echo $start_date;
-        echo $end_date;
-        echo $title;
         
-        $start_date=date_format($start_date,"Y-m-d H:i:s");
-        echo $start_date;
-        $end_date=date_format($end_date,"Y-m-d H:i:s");
+        
 
         // $timestamp = strtotime($appointment_date);
 
