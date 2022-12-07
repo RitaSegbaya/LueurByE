@@ -1,45 +1,34 @@
 <?php
-
-require('../Controllers/customer_controller.php');
-
-//start session
-session_start();
-
-if(isset($_POST["Login"]))
-{
-
-    $email = $_POST["email"];
-    $password = $_POST["password"];
-
-// confirming whether th email exist and returns either a boolean or an associative array 
-    $result = check_login_details_ctr($email);
+include ('../Controllers/customer_controller.php');
+include ('../Settings/core.php');
 
 
-    // store information to be used across multiple pages 
-    if($result){
+/**
+ * Get the data from the login form and pass it ot the Login controller function
+ */
+if (isset($_POST['Login'])){
+    $email = $_POST['Email'];
+    $Password = $_POST['Password'];
 
-        if (password_verify($password, $result["customer_pass"])) {
-            $_SESSION["user_id"] = $result["customer_id"];
-            $_SESSION["user_role"] = $result["user_role"];
+    $check = select_customer_ctr($email,$Password);
+    
+    if ($check)
+    {
+        //Start session and set session id
+        session_start();
+        $_SESSION['id'] = $check['id'];
+        $_SESSION['role'] = $check['user_role'];
 
-            $user_role = get_user_role($email); 
-
-            session_start();
-            $_SESSION['email'] = $email;
-            $_SESSION['user_role'] = $user_role['user_role'];
-            // Check if user is an admin
-            
-            echo header('location: ../View/adminpage.php'); 
-           
-        } else {
-            echo header('location: ./login.php');
+        if ($_SESSION['role']==2){
+            header ('Location:../View/index.php');
         }
-    
-        
-
+        else{
+            header('location:../Admin/index.php');
+        }
     }
-    else echo header('location: ../Login/login.php');
-    
-
+    else{
+            echo"Login Unsuccessful";
+        }
+        
 }
-
+        
