@@ -28,6 +28,7 @@ session_start();
         if($result){
             echo "success";
             header("location: ../paystack.php");
+            header("location: ../mail.php");
         }else{
             echo "<script>alert('failed')</script>";
             header("location: ../Admin/index.php");
