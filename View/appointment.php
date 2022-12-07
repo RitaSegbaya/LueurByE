@@ -90,19 +90,19 @@
         </div>
     </nav>
     <!-- Navbar End -->
-                    <?php
+                    <!-- <?php
                     
-                    session_start();
+                    // session_start();
                     
-                    if(isset($_SESSION['id']))
-                    {
-                       echo header(index.php);
-                    }
-                    else
-                    {
-                        echo header(../Login/login.php);
-                    }
-                    ?> 
+                    // if(isset($_SESSION['id']))
+                    // {
+                    //    echo header(index.php);
+                    // }
+                    // else
+                    // {
+                    //     echo header(../Login/login.php);
+                    // }
+                    ?>  -->
 
 
     <!-- Page Header Start -->
