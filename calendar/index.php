@@ -10,7 +10,7 @@ include_once 'functions.php';
 <meta charset="utf-8">
 
 <!-- Stylesheet file -->
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="../Viewcss/style.css">
 
 <!-- jQuery library -->
 <script src="../View/js/jquery.min.js"></script>
