@@ -35,7 +35,7 @@ $total = $_POST['total'];
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 
-    <script src="js/payment.js"></script>
+    
 </head>
 
 <body>
@@ -120,14 +120,14 @@ $total = $_POST['total'];
                             <div class="col-lg-6">
                                 <div class="card-body p-md-5 mx-md-4">
 
-                                <script src="https://js.paystack.co/v1/inline.js"></script>
-                                    <form id="paymentForm" >
+                                
+                                    <form id="paymentForm" method="POST">
                                         <input id='email-address' value =" <?php echo $_SESSION['email']; ?>" readonly></input>
                                         <h4> Total GHC </h4>
                                         <input type="text" id='amount'  value = "<?php echo $total; ?>"></input >
                                        
 
-                                        <button type="submit" class="btn btn-primary" onclick="payWithPaystack()">Make Payment</button>
+                                        <button type="submit" class="btn btn-primary" onclick="payWithPaystack(e)">Make Payment</button>
 
                                     </form>
                                 </div>

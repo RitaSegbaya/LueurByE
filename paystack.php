@@ -1,3 +1,7 @@
+<?php
+session_start();
+$total = $_POST['total'];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,8 +61,8 @@
         <h1>  Make Payment </h1>
     <form id = "paymentForm" method = "POST" >
         
-        <input type="text" name="email" placeholder="Enter your email" id="email-address" required></br>
-        <input type="payment" name="payment" placeholder="Payment" id="amount" required></br>
+        <input type="text" name="email" placeholder="Enter your email" id="email-address" value="<?php echo $_SESSION['email']; ?>"required></br>
+        <input type="payment" name="payment" placeholder="Payment" id="amount" value="<?php echo $total; ?>"required></br>
         <button type="submit" onclick="payWithPaystack()"> Pay </button>
     </form>
     <script src= "View/js/payment.js"></script>
