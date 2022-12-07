@@ -23,7 +23,7 @@ function payWithPaystack(e) {
                 success: function(response) {
                     // the transaction status is in response.data.status
                     alert(response);
-                    window.location.href = "../index.php"
+
                 }
             });
         }
@@ -31,3 +31,5 @@ function payWithPaystack(e) {
 
     handler.openIframe();
 }
+
+window.location.href = "../index.php";
