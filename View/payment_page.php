@@ -114,7 +114,7 @@ $total = $_POST['total'];
                                 <div class="card-body p-md-5 mx-md-4">
 
                                 <script src="https://js.paystack.co/v1/inline.js"></script>
-                                    <form id="paymentForm" action="../PHPMailer">
+                                    <form id="paymentForm" action="../mail.php">
                                         <input id='email-address' value =" <?php echo $_SESSION['customerEmail']; ?>" readonly></input>
                                         <h4> Total GHC </h4>
                                         <input type="text" id='amount' readonly value = "<?php echo $total; ?>"></input >
