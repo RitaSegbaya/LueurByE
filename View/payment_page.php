@@ -128,13 +128,14 @@ $total = $_POST['total'];
                                        
 
                                         <button type="submit" class="btn btn-primary" onclick="payWithPaystack(event)">Make Payment</button>
-                                        
+
                                     </form>
                                 </div>
 
 
                             </div>
                             <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+                            <script src= "js/payment.js"></script>
 
                             </div>
                         </div>
