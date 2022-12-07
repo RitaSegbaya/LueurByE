@@ -16,7 +16,7 @@ if (isset($_POST['Login'])){
     if ($check)
     {
         if(password_verify($Password,$check['password'])){
-            echo ("Success");
+            echo "Success";
         }
         //Start session and set session id
         session_start();
