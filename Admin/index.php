@@ -1,20 +1,17 @@
-<?php
-// require("../functions/getAllCategories.php");
 
-?>
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>AshGrill</title>
+    <title>LueurbyE</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="../View/img/iconash" rel="icon">
+    <link href="../View/img/lueurlogo.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,7 +30,6 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="../View/css/bootstrap.min.css" rel="stylesheet">
 
-
     <!-- Template Stylesheet -->
     <link href="../View/css/style.css" rel="stylesheet">
 </head>
@@ -42,7 +38,7 @@
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border position-relative text-primary" style="width: 6rem; height: 6rem;" role="status"></div>
-        <img class="position-absolute top-50 start-50 translate-middle" src="../View/img/iconash.png" alt="Icon">
+        <img class="position-absolute top-50 start-50 translate-middle" src="../View/img/lueuricon.png" alt="Icon">
     </div>
     <!-- Spinner End -->
 
@@ -52,8 +48,8 @@
         <div class="row gx-0 d-none d-lg-flex">
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-3">
-                    <a class="text-body px-2" href="tel:+0123456789"><i class="fa fa-phone-alt text-primary me-2"></i>+233205825252</a>
-                    <a class="text-body px-2" href="mailto:ashgrill@ashesi.edu.gh"><i class="fa fa-envelope-open text-primary me-2"></i>ashgrill@ashesi.edu.gh</a>
+                    <a class="text-body px-2" href="tel:+233 554 465 521"><i class="fa fa-phone-alt text-primary me-2"></i>+233 554 465 521</a>
+                    <a class="text-body px-2" href="mailto:orders@eworldgh.com"><i class="fa fa-envelope-open text-primary me-2"></i>orders@eworldgh.com</a>
                 </div>
             </div>
             <div class="col-lg-5 px-5 text-end">
@@ -62,21 +58,22 @@
                     <a class="text-body px-2" href="">Privacy</a>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
-                    <a class="btn btn-sm-square btn-outline-body me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-sm-square btn-outline-body me-1" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-sm-square btn-outline-body me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-sm-square btn-outline-body me-0" href=""><i class="fab fa-instagram"></i></a>
+                    
+                    <a class="btn btn-sm-square btn-outline-body me-1" href="https://twitter.com/lueurby.e"><i class="fab fa-twitter"></i></a>
+                   
+                    <a class="btn btn-sm-square btn-outline-body me-0" href="https://www.instagram.com/lueurby.e"><i class="fab fa-instagram"></i></a>
+
+                    <a href="https://meet.google.com/new?hs=180&amp;authuser=0" target="_top" title="Start a meeting" aria-label="Start a meeting" draggable="false">Start a meeting</a>
                 </div>
             </div>
         </div>
     </div>
     <!-- Topbar End -->
 
-
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
         <a href="index.php" class="navbar-brand ms-4 ms-lg-0">
-            <h1 class="text-primary m-0"><img class="me-3" src="../View/img/iconash.png" alt="Icon">AshGrill</h1>
+            <h1 class="text-primary m-0"><img class="me-3" src="img/lueuricon.png" alt="Icon">LueurByE</h1>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -153,10 +150,10 @@
                         </div>
 
 
-                        <div class="form-outline mb-4">
+                        <!-- <div class="form-outline mb-4">
                             <label class="form-label" for="formEmail">Categories</label>
                             <?php   getAllCategories(); ?>
-                        </div>
+                        </div> -->
 
                         <div class="form-outline mb-4">
                             <label class="form-label" for="formPassword">Price</label>
@@ -198,10 +195,10 @@
                 </div>
                 <div class="modal-body">
                     <form action="../Actions/create_appointment.php" method="GET">
-                        <div class="form-outline mb-4">
-                            <label class="form-label" for="formName">Appointment Date</label>
-                            <input type="date" id="formEmail" name="appointment_date" class="form-control" placeholder="full name" required />
-                        </div>
+                        <!-- <div class="form-outline mb-4">
+                            <label class="form-label" for="formName">Appointment</label>
+                            <input type="time" id="formEmail" name="appointment_time" class="form-control" placeholder="time" required />
+                        </div> -->
 
 
                         <!-- <div class="form-outline mb-4">
@@ -271,11 +268,11 @@
     ?> -->
 
 
-    <!-- Google Cal Start -->
+    <!-- Google Map Start -->
     <div class="container-xxl pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
-        <iframe src="https://calendar.google.com/calendar/embed?src=9469d6c37579c70203215c085a18530efe6b28a0332c869f04356a4094089023%40group.calendar.google.com&ctz=Etc%2FGMT" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    <iframe src="https://calendar.google.com/calendar/embed?src=9469d6c37579c70203215c085a18530efe6b28a0332c869f04356a4094089023%40group.calendar.google.com&ctz=Etc%2FGMT" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     </div>
-    <!-- Google Cal End -->
+    <!-- Google Map End -->
 
 
     <!-- Footer Start -->
