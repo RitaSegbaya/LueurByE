@@ -110,7 +110,58 @@
     <!-- Page Header End -->
 
 
-    
+    <!-- Modal For Service-->
+    <div class="modal fade" id="exampleModalService" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Service</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+
+                    <form action="../Actions/create_service.php" method="post" enctype="multipart/form-data">
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="formName">Serivce Name</label>
+                            <input type="text" id="formEmail" name="service_name" class="form-control" placeholder="service name" required />
+                        </div>
+
+
+                        <!-- <div class="form-outline mb-4">
+                            <label class="form-label" for="formEmail">Categories</label>
+                            <?php   getAllCategories(); ?>
+                        </div> -->
+
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="formPassword">Price</label>
+                            <input type="number" id="formPassword" name="price" class="form-control" required />
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="formCountry">Service Image</label>
+                            <input type="file" id="formCountry"  class="form-control" placeholder="Service Image"
+                            name="service_image"
+                            />
+                        </div>
+
+
+                        <div class="text-center pt-1 mb-5 pb-1">
+                            <input type="submit" class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" class="form-control" name="submit" value="Add Service" />
+
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <!-- About Start -->
