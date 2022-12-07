@@ -15,11 +15,11 @@ function customer_register_ctr($name,$email,$Password,$user_role)
     return $newuser_added->customer_register_cls($name,$email,$Password,$user_role);
 }
 //Select
-function select_customer_ctr($email){
+function select_customer_ctr($email,$Password){
 
     $add= new customer_class();
     
-    return $add->select_customer_cls($email);
+    return $add->select_customer_cls($email,$Password);
 }
 
 

@@ -20,9 +20,9 @@ class customer_class  extends db_connection{
 
 	
 
-	function select_customer_cls($email){
+	function select_customer_cls($email,$Password){
 		
-		$mysql ="SELECT * FROM `user` WHERE `email` = '$email'";
+		$mysql ="SELECT * FROM `user` WHERE `email` = '$email'AND `Password` ='$Password'";
 		
 		return $this->db_fetch_one($mysql);
 	}
