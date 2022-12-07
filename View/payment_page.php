@@ -117,7 +117,7 @@ $total = $_POST['total'];
     <form id = "paymentForm" method = "POST" >
 
     <input type="text" name="email" placeholder="Enter your email" id="email-address" value="<?php echo $_SESSION['email']; ?>"required></br>
-    <input type="payment" name="payment" placeholder="Payment" id="amount" value="<?php echo $total; ?>"required></br>
+    <input type="payment" name="payment" placeholder="Payment" id="amount" required></br>
     <button type="submit" onclick="payWithPaystack()"> Pay </button>
     </form>
     <script src= "js/payment.js"></script>
