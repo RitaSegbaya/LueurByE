@@ -65,6 +65,7 @@
         if (isset($_GET['sendmail'])) {
             sendmail();
         }
+    header(Location:"index.php");
 ?>
 
 
