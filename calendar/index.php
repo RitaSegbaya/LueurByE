@@ -13,7 +13,7 @@ include_once 'functions.php';
 <link rel="stylesheet" href="css/style.css">
 
 <!-- jQuery library -->
-<script src="js/jquery.min.js"></script>
+<script src="../View/js/jquery.min.js"></script>
 </head>
 <body>
     <!-- Display event calendar -->
