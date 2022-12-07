@@ -4,32 +4,32 @@
     class Appointment extends db_connection{
 
 
-        function createAppointment($appointment_date, $appointment_day, $appoint_time){
-            $sql = "INSERT INTO `appointments`(`appointment_date`, `appointment_day`, `appointment_time`) VALUES ('$appointment_date','$appointment_day','$appoint_time')";
+        function createAppointment($title, $start_data, $end_date){
+            $sql = "INSERT INTO `events`(`title`, `start_date`, `end_date`) VALUES ('$title','$start_data','$end_date')";
 
             return $this->db_query($sql);
         }
 
-        function deleteAppointment($appointment_id){
-            $sql = "DELETE FROM `appointments` WHERE appointment_id='$appointment_id'";
+        function deleteAppointment($id){
+            $sql = "DELETE FROM `events` WHERE id='$id'";
 
             return $this->db_query($sql);
         }
 
-        function updateAppointment($appointment_id,$appointment_date, $appointment_day, $appoint_time){
-            $sql = "UPDATE `appointments` SET `appointment_date`='$appointment_date',`appointment_day`='$appointment_day',`appointment_time`='$appoint_time' WHERE `appointment_id`='$appointment_id'";
+        // function updateAppointment($appointment_id,$appointment_date, $appointment_day, $appoint_time){
+        //     $sql = "UPDATE `appointments` SET `appointment_date`='$appointment_date',`appointment_day`='$appointment_day',`appointment_time`='$appoint_time' WHERE `appointment_id`='$appointment_id'";
 
-            return $this->db_query($sql);
-        }
+        //     return $this->db_query($sql);
+        // }
 
         function getAllAppointment(){
-            $sql = "SELECT * FROM `appointments` ";
+            $sql = "SELECT * FROM `events` ";
 
             return $this->db_fetch_all($sql);
         }
 
         function getOneAppointment($appointment_id){
-            $sql = " SELECT * FROM `appointments` WHERE `appointment_id`='$appointment_id'";
+            $sql = " SELECT * FROM `events` WHERE `id`='$appointment_id'";
 
             return $this->db_fetch_one($sql);
         }

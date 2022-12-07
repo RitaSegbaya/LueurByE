@@ -32,9 +32,7 @@ include('header.php');
 			<ul id="eventlist" class="nav nav-list"></ul>
 		</div>
 	</div>	
-	<div style="margin:50px 0px 0px 0px;">
-		<!-- <a class="btn btn-default read-more" style="background:#3399ff;color:white" href="http://www.phpzag.com/create-event-calendar-with-jquery-php-and-mysql/">Back to Tutorial</a>		 -->
-	</div>
+
 </div>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
 <script type="text/javascript" src="js/calendar.js"></script>
