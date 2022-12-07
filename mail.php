@@ -1,9 +1,11 @@
 <?php
     session_start();
     $email=$_POST['email'];
+    echo $email;
 
 
     use PHPMailer\PHPMailer\PHPMailer;
+    use PHPMailer\PHPMailer\SMTP;
     $username=$_POST['name'];
     $email=$_POST['email'];
     function sendmail(){
