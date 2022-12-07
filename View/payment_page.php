@@ -107,6 +107,7 @@ $total = $_POST['total'];
     <?php 
         $total = 1;
         
+        include('../mail.php');
         
     
     ?>
