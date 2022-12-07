@@ -21,6 +21,7 @@ if (isset($_POST['Login'])){
         }
         //Start session and set session id
         session_start();
+        $_SESSION['email']=$check['email'];
         $_SESSION['cid'] = $check['id'];
         $_SESSION['role'] = $check['user_role'];
 

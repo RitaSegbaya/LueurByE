@@ -122,12 +122,12 @@ $total = $_POST['total'];
 
                                 <script src="https://js.paystack.co/v1/inline.js"></script>
                                     <form id="paymentForm" >
-                                        <input id='email-address' value =" <?php echo $_SESSION['customerEmail']; ?>" readonly></input>
+                                        <input id='email-address' value =" <?php echo $_SESSION['email']; ?>" readonly></input>
                                         <h4> Total GHC </h4>
-                                        <input type="text" id='amount' readonly value = "<?php echo $total; ?>"></input >
+                                        <input type="text" id='amount'  value = "<?php echo $total; ?>"></input >
                                        
 
-                                        <button type="submit" class="btn btn-primary" onclick="payWithPaystack(event)">Make Payment</button>
+                                        <button type="submit" class="btn btn-primary" onclick="payWithPaystack(e)">Make Payment</button>
                                     </form>
                                 </div>
 
