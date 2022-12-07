@@ -25,11 +25,11 @@ function payWithPaystack(e) {
                     alert(response);
 
                 }
+
             });
+            window.location.href = "../index.php";
         }
     });
 
     handler.openIframe();
 }
-
-window.location.href = "../index.php";
