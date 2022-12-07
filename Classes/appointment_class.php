@@ -4,14 +4,14 @@
     class Appointment extends db_connection{
 
 
-        function createAppointment($title, $start_data, $end_date){
-            $sql = "INSERT INTO `events`(`title`, `start_date`, `end_date`) VALUES ('$title','$start_data','$end_date')";
+        function createAppointment($uid,$title, $start_date,$date_created, $end_date){
+            $sql = "INSERT INTO `calendar`(`uid`,`title`, `start_date`, `date_created`,`end_date`) VALUES ('$uid','$title','$start_date','$date_created','$end_date')";
 
             return $this->db_query($sql);
         }
 
         function deleteAppointment($id){
-            $sql = "DELETE FROM `events` WHERE id='$id'";
+            $sql = "DELETE FROM `calendar` WHERE id='$id'";
 
             return $this->db_query($sql);
         }
@@ -23,13 +23,13 @@
         // }
 
         function getAllAppointment(){
-            $sql = "SELECT * FROM `events` ";
+            $sql = "SELECT * FROM `calendar` ";
 
             return $this->db_fetch_all($sql);
         }
 
         function getOneAppointment($appointment_id){
-            $sql = " SELECT * FROM `events` WHERE `id`='$appointment_id'";
+            $sql = " SELECT * FROM `calendar` WHERE `id`='$appointment_id'";
 
             return $this->db_fetch_one($sql);
         }
