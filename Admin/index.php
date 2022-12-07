@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="../View/img/lueurlogo.png" rel="icon">
+    <link href="View/img/lueurlogo.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,22 +21,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="../View/lib/animate/animate.min.css" rel="stylesheet">
-    <link href="../View/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="../View/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="View/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="View/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="View/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="../View/css/bootstrap.min.css" rel="stylesheet">
+    <link href="View/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="../View/css/style.css" rel="stylesheet">
+    <link href="View/css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border position-relative text-primary" style="width: 6rem; height: 6rem;" role="status"></div>
-        <img class="position-absolute top-50 start-50 translate-middle" src="../View/img/lueuricon.png" alt="Icon">
+        <img class="position-absolute top-50 start-50 translate-middle" src="View/img/lueuricon.png" alt="Icon">
     </div>
     <!-- Spinner End -->
 
@@ -62,210 +60,157 @@
                     <a class="btn btn-sm-square btn-outline-body me-1" href="https://twitter.com/lueurby.e"><i class="fab fa-twitter"></i></a>
                    
                     <a class="btn btn-sm-square btn-outline-body me-0" href="https://www.instagram.com/lueurby.e"><i class="fab fa-instagram"></i></a>
-
-                    <a href="https://meet.google.com/new?hs=180&amp;authuser=0" target="_top" title="Start a meeting" aria-label="Start a meeting" draggable="false">Start a meeting</a>
                 </div>
             </div>
         </div>
     </div>
     <!-- Topbar End -->
 
+
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-        <a href="#" class="navbar-brand ms-4 ms-lg-0">
-            <h1 class="text-primary m-0"><img class="me-3" src="../View/img/lueuricon.png" alt="Icon">LueurByE</h1>
+        <a href="View/index.php" class="navbar-brand ms-4 ms-lg-0">
+            <h1 class="text-primary m-0"><img class="me-3" src="View/img/lueuricon.png" alt="Icon">LueurByE</h1>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <!-- <a href="index.php" class="nav-item nav-link">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="services.php" class="nav-item nav-link" >Appointment</a>  -->
-
+                <a href="View/index.php" class="nav-item nav-link active">Home</a>
+                <a href="View/about.php" class="nav-item nav-link">About</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu border-0 m-0">
+                        <a href="Login/login.php" class="dropdown-item">Booking</a>
+                        <a href="https://eworldgh.company.site" class="dropdown-item">Main Site</a>
+                       
+                    </div>
+                </div>
             </div>
-            <!-- <a href="contact.php" class="nav-item nav-link active">Contact</a> -->
-        </div>
-        <a type="button" class="btn btn-primary py-2 px-4 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#exampleModalCategory">
-            Create Category
-        </a>
-        <span>&nbsp;</span>
-        <a type="button" class="btn btn-primary py-2 px-4 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#exampleModalAppointment">
-            Create Appointment
-        </a>
-        <span>&nbsp;</span>
-        <a type="button" class="btn btn-primary py-2 px-4 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#exampleModalService">
-            Add a service
-        </a>
-        <span>&nbsp;</span>
-        <a href="../Login/login.php" class="btn btn-primary py-2 px-4 d-none d-lg-block">Logout</a>
+            <a href="Login/login.php" class="btn btn-primary py-2 px-4 d-none d-lg-block">Book Now!</a>
         </div>
     </nav>
     <!-- Navbar End -->
 
 
-    <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <h1 class="display-1 text-white animated slideInDown">Welcome</h1>
-        </div>
-    </div>
-    <!-- Page Header End -->
-
-
-    <!-- Contact Start -->
     
 
 
-    <!-- Button trigger modal -->
-
-
-
-
-    <!-- Modal For Service-->
-    <div class="modal fade" id="exampleModalService" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Service</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img class="img-fluid" src="View/img/lueurlogo.png" alt="">
+                        <img class="img-fluid" src="View/img/lueur.png" alt="">
+                    </div>
                 </div>
-                <div class="modal-body">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h4 class="section-title">About Us</h4>
+                    <h1 class="display-5 mb-4">At The E World, we take pride in everything we produce. </h1>
+                    <p> Although our industry began not long ago, our priority is attention to detail, the quality of our goods and our care for those who use our product. 
 
-
-                    <form action="../Actions/create_service.php" method="post" enctype="multipart/form-data">
-                        <div class="form-outline mb-4">
-                            <label class="form-label" for="formName">Serivce Name</label>
-                            <input type="text" id="formEmail" name="service_name" class="form-control" placeholder="service name" required />
-                        </div>
-
-
-                        <!-- <div class="form-outline mb-4">
-                            <label class="form-label" for="formEmail">Categories</label>
-                            <?php   getAllCategories(); ?>
-                        </div> -->
-
-                        <div class="form-outline mb-4">
-                            <label class="form-label" for="formPassword">Price</label>
-                            <input type="number" id="formPassword" name="price" class="form-control" required />
-                        </div>
-
-                        <div class="form-outline mb-4">
-                            <label class="form-label" for="formCountry">Service Image</label>
-                            <input type="file" id="formCountry"  class="form-control" placeholder="Service Image"
-                            name="service_image"
-                            />
-                        </div>
-
-
-                        <div class="text-center pt-1 mb-5 pb-1">
-                            <input type="submit" class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" class="form-control" name="submit" value="Add Service" />
-
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                   
+                    Hey there, welcome to The E World, your number one source for all things skincare. We're dedicated to providing you the very best of beauty products with an emphasis on quality, sustainable sources and pocket-friendliness.
+                    </p>
+                
                 </div>
             </div>
         </div>
     </div>
+    <!-- About End -->
 
 
-    <!-- Modal For Appointment-->
-    <div class="modal fade" id="exampleModalAppointment" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Appointments</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form action="../Actions/create_appointment.php" method="GET">
-                        <div class="form-outline mb-4">
-                            <label class="form-label" for="formName">Appointment</label>
-                            <input type="time" id="formEmail" name="appointment_time" class="form-control" placeholder="time" required />
-                        </div> 
-
-
-                        <div class="form-outline mb-4">
-                            <label class="form-label" for="formEmail">Appointment day</label>
-                            <input type="text" id="formEmail" name="appointment_day" class="form-control" placeholder="Email address" required />
-                        </div> 
-
-                        <div class="form-outline mb-4">
-                            <label class="form-label" name = "appointment_time" for="formPassword">Appointment time</label>
-                            <input type="time" id="formPassword" name="appointment_time" class="form-control" required />
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h4 class="section-title">Our Services</h4>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex position-relative text-center h-100">
+                        <img class="bg-img" src="View/img/consult.jpeg" alt="">
+                        <div class="service-text p-5">
+                            <!-- <img class="mb-4" src="View/img/food.jpg" alt="Icon"> -->
+                            <h3 class="mb-3">Custom consultation</h3>
+                            <p class="mb-4">1 hour</p>
+                            <p class="mb-4">GHC60.00</p>
+                            <a class="btn" href="View/appointment.php"><i class="fa fa-plus text-primary me-3"></i>Book Now</a>
                         </div>
-
-
-
-
-                        <div class="text-center pt-1 mb-5 pb-1">
-                            <input type="submit" class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" class="form-control" name="submit" value="Add Appointments" />
-
-                        </div>
-                    </form>
+                    </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                   
-                </div>
+                
             </div>
         </div>
     </div>
+    <!-- Service End -->
 
-    <!-- Modal For Categories-->
-    <div class="modal fade" id="exampleModalCategory" tabindex="-1" role="dialog" aria-labelledby="exampleModalCategory" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Category</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+
+    <!-- Contact Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h4 class="section-title">Contact Us</h4>
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <div class="d-flex">
+                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light" style="width: 65px; height: 65px;">
+                                    <i class="fa fa-2x fa-phone-alt text-primary"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <p class="mb-2">Call Us Now</p>
+                                    <h3 class="mb-0">+233 554 465 521</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex">
+                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light" style="width: 65px; height: 65px;">
+                                    <i class="fa fa-2x fa-envelope-open text-primary"></i>
+                                </div>
+                                <div class="ms-4">
+                                    <p class="mb-2">Mail Us Now</p>
+                                    <h3 class="mb-0">orders@eworldgh.com</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="modal-body">
-                <form action="" method="GET">
-                                        <div class="form-outline mb-4">
-                                            <label class="form-label" for="formName">Category Name</label>
-                                            <input type="text" id="formEmail" name="cat_name" class="form-control"
-                                                placeholder="Category Name" required />
-                                        </div>
-
-
-                                        <div class="text-center pt-1 mb-5 pb-1">
-                                            <input type="submit"
-                                                class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3"
-                                                class="form-control" name="submit" value="Add Categories" />
-
-                                        </div>
-                                        </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row g-3">
+                        <div class="col-12 col-sm-6">
+                            <input type="text" class="form-control" placeholder="Your Name" style="height: 55px;">
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <input type="email" class="form-control" placeholder="Your Email" style="height: 55px;">
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <input type="text" class="form-control" placeholder="Your Mobile" style="height: 55px;">
+                        </div>
+                     
+                      
+                        <div class="col-12">
+                            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary w-100 py-3" type="submit">Send</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Contact End -->
 
+ <!-- Google Map Start -->
+ <div class="container-xxl pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d62879.125634949785!2d-0.26292653923761206!3d5.56416341868399!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a235ff61e4b263b!2sThe%20E%20World%20%7C%20Lueur%20by%20E!5e0!3m2!1sen!2sgh!4v1670315708514!5m2!1sen!2sgh" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-
-    <!-- Google Map Start -->
-    <div class="container-xxl pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
-        <iframe src="https://calendar.google.com/calendar/embed?src=9469d6c37579c70203215c085a18530efe6b28a0332c869f04356a4094089023%40group.calendar.google.com&ctz=Etc%2FGMT" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     </div>
     <!-- Google Map End -->
-
-
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
@@ -284,15 +229,15 @@
                 
                 <div class="col-lg-3 col-md-6">
                     <h3 class="text-light mb-4">Quick Links</h3>
-                    <a class="btn btn-link" href="about.php">About Us</a>
+                    <a class="btn btn-link" href="View/about.php">About Us</a>
                     <a class="btn btn-link" href="mailto:info@eworldgh.com">Contact Us</a>
-                    <a class="btn btn-link" href="services.php">Our Services</a>
+                    <a class="btn btn-link" href="View/services.php">Our Services</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h3 class="text-light mb-4">Subscribe</h3>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
                         <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Subscribe</button>
+                        <button type="submit" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Subscribe</button>
                     </div>
                 </div>
             </div>
@@ -322,21 +267,17 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../View/lib/wow/wow.min.js"></script>
-    <script src="../View/lib/easing/easing.min.js"></script>
-    <script src="../View/lib/waypoints/waypoints.min.js"></script>
-    <script src="../View/lib/counterup/counterup.min.js"></script>
-    <script src="../View/lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="../View/lib/tempusdominus/js/moment.min.js"></script>
-    <script src="../View/lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="../View/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="View/lib/wow/wow.min.js"></script>
+    <script src="View/lib/easing/easing.min.js"></script>
+    <script src="View/lib/waypoints/waypoints.min.js"></script>
+    <script src="View/lib/counterup/counterup.min.js"></script>
+    <script src="View/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="View/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="View/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="View/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="../View/js/main.js"></script>
+    <script src="View/js/main.js"></script>
 </body>
 
 </html>
