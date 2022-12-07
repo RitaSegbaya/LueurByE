@@ -134,11 +134,11 @@
                     <div class="service-item d-flex position-relative text-center h-100">
                         <img class="bg-img" src="img/consult.jpeg" alt="">
                         <div class="service-text p-5">
-                            <!-- <img class="mb-4" src="View/img/food.jpg" alt="Icon"> -->
+                            
                             <h3 class="mb-3">Custom consultation</h3>
                             <p class="mb-4">1 hour</p>
                             <p class="mb-4">GHC60.00</p>
-                            <a class="btn" href="View/appointment.php"><i class="fa fa-plus text-primary me-3"></i>Book Now</a>
+                            <a class="btn" href="appointment.php"><i class="fa fa-plus text-primary me-3"></i>Book Now</a>
                         </div>
                     </div>
                 </div>
