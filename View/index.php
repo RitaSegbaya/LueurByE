@@ -93,12 +93,15 @@
                     </div>
                 </div>
             </div>
-            <a href="<?php if(isset($_SESSION['cid'])) {header('appointment.php');}
-                else{
-                    header('../Login/login.php');
+            <?php
+                if(isset($_SESSION['cid'])){
+                    echo"<a href='appointment.php' class='btn btn-primary py-2 px-4 d-none d-lg-block'>Booking</a>";
                 }
-                                
-            ?>" class="btn btn-primary py-2 px-4 d-none d-lg-block">Booking</a>
+                else{
+                    echo"<a href='../Login/login.php' class='btn btn-primary py-2 px-4 d-none d-lg-block'>Booking</a>";
+                }
+            ?>
+            
         </div>
     </nav>
     <!-- Navbar End -->
