@@ -11,7 +11,7 @@
     // $email=$_POST['email'];
     function sendmail(){
         $name = "LueurbyE";  // Name of your website or yours
-        $to = $email;  // mail of reciever
+        $to = $_SESSION['email'];  // mail of reciever
         $subject = "Success";
         $body = "Booking complete!";
         $from = "wecreategh2812@gmail.com";  // you mail
@@ -49,7 +49,7 @@
         //Email Settings
         $mail->isHTML(true);
         $mail->setFrom('wecreategh2812@gmail.com', 'LueurByE');
-        $mail->addAddress($to); // enter email address whom you want to send
+        $mail->addAddress($_SESSION['email']); // enter email address whom you want to send
         $mail->Subject = ($subject);
         $mail->Body = $body;
         if ($mail->send()) {
