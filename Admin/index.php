@@ -195,16 +195,16 @@
                 </div>
                 <div class="modal-body">
                     <form action="../Actions/create_appointment.php" method="GET">
-                        <!-- <div class="form-outline mb-4">
+                        <div class="form-outline mb-4">
                             <label class="form-label" for="formName">Appointment</label>
                             <input type="time" id="formEmail" name="appointment_time" class="form-control" placeholder="time" required />
-                        </div> -->
+                        </div> 
 
 
-                        <!-- <div class="form-outline mb-4">
+                        <div class="form-outline mb-4">
                             <label class="form-label" for="formEmail">Appointment day</label>
                             <input type="text" id="formEmail" name="appointment_day" class="form-control" placeholder="Email address" required />
-                        </div> -->
+                        </div> 
 
                         <div class="form-outline mb-4">
                             <label class="form-label" name = "appointment_time" for="formPassword">Appointment time</label>
