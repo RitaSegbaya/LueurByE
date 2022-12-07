@@ -1,6 +1,6 @@
 <?php
 include ('../Controllers/customer_controller.php');
-include ('../Settings/core.php');
+// include ('../Settings/core.php');
 
 
 /**
