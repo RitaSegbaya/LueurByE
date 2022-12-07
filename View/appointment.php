@@ -85,6 +85,7 @@
                     <a href="https://eworldgh.company.site" class="dropdown-item">Main Site</a>
                        
                 </div>
+                <a href="../Actions/logout.php" class="btn btn-primary py-2 px-4 d-none d-lg-block">Logout</a>
             </div>
             
         </div>

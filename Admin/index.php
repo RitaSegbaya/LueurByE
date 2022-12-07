@@ -89,7 +89,7 @@
         <span>&nbsp;</span>
         <a href="calendar/index.php" class="btn btn-primary py-2 px-4 d-none d-lg-block">Calendar</a>
         <span>&nbsp;</span>
-        <a href="../Login/login.php" class="btn btn-primary py-2 px-4 d-none d-lg-block">Logout</a>
+        <a href="../Actions/logout.php" class="btn btn-primary py-2 px-4 d-none d-lg-block">Logout</a>
         </div>
     </nav>
     <!-- Navbar End -->
