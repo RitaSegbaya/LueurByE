@@ -36,10 +36,10 @@
 
 <body>
     <!-- Spinner Start -->
-    <!-- <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border position-relative text-primary" style="width: 6rem; height: 6rem;" role="status"></div>
         <img class="position-absolute top-50 start-50 translate-middle" src="../View/img/lueuricon.png" alt="Icon">
-    </div> -->
+    </div>
     <!-- Spinner End -->
 
 
@@ -87,15 +87,15 @@
             </div>
             <!-- <a href="contact.php" class="nav-item nav-link active">Contact</a> -->
         </div>
-        <a type="button" class="btn btn-primary py-2 px-4 d-none d-lg-block" data-toggle="modal" data-target="#exampleModalCategory">
+        <a type="button" class="btn btn-primary py-2 px-4 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#exampleModalCategory">
             Create Category
         </a>
         <span>&nbsp;</span>
-        <a type="button" class="btn btn-primary py-2 px-4 d-none d-lg-block" data-toggle="modal" data-target="#exampleModalAppointment">
+        <a type="button" class="btn btn-primary py-2 px-4 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#exampleModalAppointment">
             Create Appointment
         </a>
         <span>&nbsp;</span>
-        <a type="button" class="btn btn-primary py-2 px-4 d-none d-lg-block" data-toggle="modal" data-target="#exampleModalService">
+        <a type="button" class="btn btn-primary py-2 px-4 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#exampleModalService">
             Add a service
         </a>
         <span>&nbsp;</span>
