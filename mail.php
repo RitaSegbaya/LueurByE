@@ -1,6 +1,7 @@
 <?php
     session_start();
-    $email=echo $_SESSION['email'];
+    $email=$_SESSION['email'];
+    echo $email;
    
 
 
