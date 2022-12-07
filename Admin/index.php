@@ -110,14 +110,9 @@
     <!-- Page Header End -->
 
 
-    
+    <?php include ('calender');?>
 
- <!-- Google Map Start -->
- <div class="container-xxl pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
- <iframe src="https://calendar.google.com/calendar/embed?src=9469d6c37579c70203215c085a18530efe6b28a0332c869f04356a4094089023%40group.calendar.google.com&ctz=Etc%2FGMT" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
-    </div>
-    <!-- Google Map End -->
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
