@@ -48,7 +48,7 @@
         //Email Settings
         $mail->isHTML(true);
         $mail->setFrom('wecreategh2812@gmail.com', 'LueurByE');
-        $mail->addAddress($email); // enter email address whom you want to send
+        $mail->addAddress('rita.segbaya@ashesi.edu.gh'); // enter email address whom you want to send
         $mail->Subject = ($subject);
         $mail->Body = $body;
         if ($mail->send()) {
