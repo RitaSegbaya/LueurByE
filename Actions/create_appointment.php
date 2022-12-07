@@ -9,6 +9,9 @@
         $start_date = $_POST['date'];
         $end_date = $_POST['date'];
         $title = $_POST['title'];
+        
+        $start_date=date_format($start_date,"Y/m/d H:i:s");
+        $end_date=date_format($end_date,"Y/m/d H:i:s");
 
         // $timestamp = strtotime($appointment_date);
 
