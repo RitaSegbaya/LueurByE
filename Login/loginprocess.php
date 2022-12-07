@@ -10,7 +10,7 @@ if (isset($_POST['Login'])){
     $email = $_POST['Email'];
     $Password = $_POST['Password'];
 
-    $check = select_customer_ctr($email,$Password);
+    $check = select_customer_ctr($email);
     
     if ($check)
     {
@@ -32,3 +32,4 @@ if (isset($_POST['Login'])){
         
 }
         
+
