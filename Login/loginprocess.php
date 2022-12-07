@@ -12,6 +12,7 @@ if (isset($_POST['Login'])){
     
 
     $check = select_customer_ctr($email);
+    echo $check;
     
     if ($check)
     {
