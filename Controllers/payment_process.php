@@ -1,5 +1,5 @@
 <?php
-//require("../contrller/pay_controller.php");
+
   $url = "https://api.paystack.co/transaction/initialize";
   $email = $_POST['email'];
   $amount = $_POST['amount'];
