@@ -107,12 +107,29 @@ $total = $_POST['total'];
     <?php 
         $total = 1;
         
-        include('../mail.php');
+        
         
     
     ?>
+    <div>
 
-    <section class="h-100 gradient-form" style="background-color: #eee;">
+    <h1>  Make Payment </h1>
+    <form id = "paymentForm" method = "POST" >
+
+    <input type="text" name="email" placeholder="Enter your email" id="email-address" value="<?php echo $_SESSION['email']; ?>"required></br>
+    <input type="payment" name="payment" placeholder="Payment" id="amount" value="<?php echo $total; ?>"required></br>
+    <button type="submit" onclick="payWithPaystack()"> Pay </button>
+    </form>
+    <script src= "View/js/payment.js"></script>
+
+
+
+</div>
+
+
+    
+
+    <!-- <section class="h-100 gradient-form" style="background-color: #eee;">
         <div class="container py-5 h-100">
             <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col-xl-10">
@@ -144,7 +161,7 @@ $total = $_POST['total'];
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
      <!-- Footer Start -->
