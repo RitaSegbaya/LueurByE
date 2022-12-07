@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="View/img/lueurlogo.png" rel="icon">
+    <link href="../View/img/lueurlogo.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,22 +21,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="View/lib/animate/animate.min.css" rel="stylesheet">
-    <link href="View/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="View/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="../View/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../View/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../View/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="View/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../View/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="View/css/style.css" rel="stylesheet">
+    <link href="../View/css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border position-relative text-primary" style="width: 6rem; height: 6rem;" role="status"></div>
-        <img class="position-absolute top-50 start-50 translate-middle" src="View/img/lueuricon.png" alt="Icon">
+        <img class="position-absolute top-50 start-50 translate-middle" src="../View/img/lueuricon.png" alt="Icon">
     </div>
     <!-- Spinner End -->
 
@@ -69,16 +69,16 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-        <a href="View/index.php" class="navbar-brand ms-4 ms-lg-0">
-            <h1 class="text-primary m-0"><img class="me-3" src="View/img/lueuricon.png" alt="Icon">LueurByE</h1>
+        <a href="../View/index.php" class="navbar-brand ms-4 ms-lg-0">
+            <h1 class="text-primary m-0"><img class="me-3" src="../View/img/lueuricon.png" alt="Icon">LueurByE</h1>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="View/index.php" class="nav-item nav-link active">Home</a>
-                <a href="View/about.php" class="nav-item nav-link">About</a>
+                <a href="../View/index.php" class="nav-item nav-link active">Home</a>
+                <a href="../View/about.php" class="nav-item nav-link">About</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu border-0 m-0">
@@ -103,8 +103,8 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <div class="about-img">
-                        <img class="img-fluid" src="View/img/lueurlogo.png" alt="">
-                        <img class="img-fluid" src="View/img/lueur.png" alt="">
+                        <img class="img-fluid" src="../View/img/lueurlogo.png" alt="">
+                        <img class="img-fluid" src="../View/img/lueur.png" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
@@ -131,13 +131,13 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="View/img/consult.jpeg" alt="">
+                        <img class="bg-img" src="../View/img/consult.jpeg" alt="">
                         <div class="service-text p-5">
                             <!-- <img class="mb-4" src="View/img/food.jpg" alt="Icon"> -->
                             <h3 class="mb-3">Custom consultation</h3>
                             <p class="mb-4">1 hour</p>
                             <p class="mb-4">GHC60.00</p>
-                            <a class="btn" href="View/appointment.php"><i class="fa fa-plus text-primary me-3"></i>Book Now</a>
+                            <a class="btn" href="../View/appointment.php"><i class="fa fa-plus text-primary me-3"></i>Book Now</a>
                         </div>
                     </div>
                 </div>
@@ -229,9 +229,9 @@
                 
                 <div class="col-lg-3 col-md-6">
                     <h3 class="text-light mb-4">Quick Links</h3>
-                    <a class="btn btn-link" href="View/about.php">About Us</a>
+                    <a class="btn btn-link" href="../View/about.php">About Us</a>
                     <a class="btn btn-link" href="mailto:info@eworldgh.com">Contact Us</a>
-                    <a class="btn btn-link" href="View/services.php">Our Services</a>
+                    <a class="btn btn-link" href="../View/services.php">Our Services</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h3 class="text-light mb-4">Subscribe</h3>
@@ -267,17 +267,17 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="View/lib/wow/wow.min.js"></script>
-    <script src="View/lib/easing/easing.min.js"></script>
-    <script src="View/lib/waypoints/waypoints.min.js"></script>
-    <script src="View/lib/counterup/counterup.min.js"></script>
-    <script src="View/lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="View/lib/tempusdominus/js/moment.min.js"></script>
-    <script src="View/lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="View/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="../View/lib/wow/wow.min.js"></script>
+    <script src="../View/lib/easing/easing.min.js"></script>
+    <script src="../View/lib/waypoints/waypoints.min.js"></script>
+    <script src="../View/lib/counterup/counterup.min.js"></script>
+    <script src="../View/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../View/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="../View/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="../View/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="View/js/main.js"></script>
+    <script src="../View/js/main.js"></script>
 </body>
 
 </html>
