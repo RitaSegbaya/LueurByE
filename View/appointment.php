@@ -159,12 +159,6 @@
                         <div class="row g-3">
                     
                             <div class="col-12 col-sm-6">
-                            <input type="text" class="form-control" placeholder="Your Name" style="height: 55px;">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                            <input type="email" class="form-control" placeholder="Your Email" style="height: 55px;">
-                            </div>
-                            <div class="col-12 col-sm-6">
                                 <div class="date" id="date" data-target-input="nearest">
                                     <input type="text"
                                         class="form-control datetimepicker-input"
