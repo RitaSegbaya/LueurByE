@@ -1,5 +1,6 @@
-// const paymentForm = document.getElementById('paymentForm');
-// paymentForm.addEventListener("submit", payWithPaystack, false);
+const paymentForm = document.getElementById('paymentForm');
+paymentForm.addEventListener("submit", payWithPaystack, false);
+
 function payWithPaystack(e) {
     e.preventDefault();
     console.log(document.getElementById("amount").value * 100)

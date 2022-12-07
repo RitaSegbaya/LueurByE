@@ -127,7 +127,8 @@ $total = $_POST['total'];
                                         <input type="text" id='amount'  value = "<?php echo $total; ?>"></input >
                                        
 
-                                        <button type="submit" class="btn btn-primary" onclick="payWithPaystack(e)">Make Payment</button>
+                                        <button type="submit" class="btn btn-primary" onclick="payWithPaystack(event)">Make Payment</button>
+                                        
                                     </form>
                                 </div>
 
