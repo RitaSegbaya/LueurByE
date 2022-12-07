@@ -122,7 +122,7 @@ $total = $_POST['total'];
 
                                 
                                     <form id="paymentForm" method="POST">
-                                        <input id='email-address' value =" <?php echo $_SESSION['email']; ?>" readonly></input>
+                                        <input id='email-address' value =" <?php echo $_SESSION['email']; ?>" ></input>
                                         <h4> Total GHC </h4>
                                         <input type="text" id='amount'  value = "<?php echo $total; ?>"></input >
                                        
