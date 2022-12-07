@@ -9,11 +9,10 @@ include ('../Controllers/customer_controller.php');
 if (isset($_POST['Login'])){
     $email = $_POST['email'];
     $Password = $_POST['password'];
-    echo $email;
-    echo $Password;
+    
 
     $check = select_customer_ctr($email);
-  
+    echo $check;
     
     if ($check)
     {
