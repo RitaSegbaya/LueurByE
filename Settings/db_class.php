@@ -85,7 +85,7 @@ class db_connection
 	function db_fetch_one($sql){
 		
 		// if executing query returns false
-		if($this->db_query($sql)){
+		if(!$this->db_query($sql)){
 
 		} 
 		//return a record

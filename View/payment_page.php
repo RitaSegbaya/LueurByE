@@ -102,7 +102,12 @@ $total = $_POST['total'];
 
     <!-- Carousel Start -->
 
-
+    <?php 
+        $total = 1;
+        
+        
+    
+    ?>
 
     <section class="h-100 gradient-form" style="background-color: #eee;">
         <div class="container py-5 h-100">
