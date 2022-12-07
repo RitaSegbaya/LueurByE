@@ -21,10 +21,12 @@ while( $rows = mysqli_fetch_assoc($resultset) ) {
         'start' => "$start",
         'end' => "$end"
     );
+    
 }
-$calendarData = array(
-	"success" => 1,	
-    "result"=>$calendar);
-echo json_encode($calendarData);
-exit;
+echo $calendar;
+// $calendarData = array(
+// 	"success" => 1,	
+//     "result"=>$calendar);
+// echo json_encode($calendarData);
+// exit;
 ?>
