@@ -155,7 +155,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <form class="col-12 col-sm-6" action="payment_page.php" method="post">
+                    <form class="col-12 col-sm-6" action="confirm.php" method="post">
                         <div class="row g-3">
                     
                             <div class="col-12 col-sm-6">
