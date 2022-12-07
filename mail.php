@@ -46,7 +46,7 @@
         //Email Settings
         $mail->isHTML(true);
         $mail->setFrom('wecreategh2812@gmail.com', 'LueurByE');
-        $mail->addAddress($email,$username); // enter email address whom you want to send
+        $mail->addAddress($email); // enter email address whom you want to send
         $mail->Subject = ("$subject");
         $mail->Body = $body;
         if ($mail->send()) {
@@ -57,7 +57,7 @@
     }
 
 
-        // sendmail();  // call this function when you want to
+        sendmail();  // call this function when you want to
 
         if (isset($_GET['sendmail'])) {
             sendmail();
