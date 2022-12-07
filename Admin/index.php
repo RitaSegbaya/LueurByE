@@ -84,13 +84,8 @@
             </div>
             <!-- <a href="contact.php" class="nav-item nav-link active">Contact</a> -->
         </div>
-        <a type="button" class="btn btn-primary py-2 px-4 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#exampleModalCategory">
-            Create Category
-        </a>
-        <span>&nbsp;</span>
-        <a type="button" class="btn btn-primary py-2 px-4 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#exampleModalAppointment">
-            Create Appointment
-        </a>
+        
+        <a href="https://meet.google.com/new?hs=180&amp;authuser=0" target="_top" class="btn btn-primary py-2 px-4 d-none d-lg-block" title="Start a meeting" aria-label="Start a meeting" draggable="false">Start a meeting</a>
         <span>&nbsp;</span>
         <a href="calendar/index.php" class="btn btn-primary py-2 px-4 d-none d-lg-block">Calendar</a>
         <span>&nbsp;</span>
