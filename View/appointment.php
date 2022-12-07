@@ -155,7 +155,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <form class="col-12 col-sm-6" action="payment_page.php" method="post">
+                    <form class="col-12 col-sm-6" action="../Actions/create_appointment.php" method="post">
                         <div class="row g-3">
                     
                             <div class="col-12 col-sm-6">
@@ -163,17 +163,6 @@
                             </div>
                             <div class="col-12 col-sm-6">
                             <input type="email" class="form-control" placeholder="Your Email" style="height: 55px;">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                            <input type="text" class="form-control" placeholder="Your Mobile" style="height: 55px;">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <select class="form-select" style="height: 55px;">
-                                    <option selected>Choose Service</option>
-                                    <option value="1">Food </option>
-                                    <option value="2">Snacks</option>
-                                    <option value="3">Clothes</option>
-                                </select>
                             </div>
                             <div class="col-12 col-sm-6">
                                 <div class="date" id="date" data-target-input="nearest">
@@ -190,7 +179,7 @@
                                 </div>
                             </div>
                             <div class="col-12">
-                                <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                                <textarea class="form-control" rows="5" placeholder="Title"></textarea>
                             </div>
                             <div class="col-12">
                                 
