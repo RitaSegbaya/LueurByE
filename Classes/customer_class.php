@@ -24,7 +24,7 @@ class customer_class  extends db_connection{
 		
 		$mysql ="SELECT * FROM `user` WHERE `email` = '$email'AND `Password` ='$Password'";
 		
-		return $this->db_query($mysql);
+		return $this->fetchOne($mysql);
 	}
 	
 	

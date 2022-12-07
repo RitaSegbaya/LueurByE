@@ -2,9 +2,9 @@
 
     require_once("../Controllers/appointment_controller.php");
 
-    $appointment_date = $_GET['appointment_date'];
+    $appointment_date = $_GET['start_date'];
 
-    $timestamp = strtotime($appointment_date);
+    $timestamp = strtotime($start_date);
 
     $appointment_day = date('l', $timestamp);
 
@@ -12,11 +12,11 @@
 
 
 
-    $result = createAppointment_ctr($appointment_date, $appointment_day, $appoint_time);
+    $result = createAppointment_ctr($title, $start_data, $end_date);
 
     if($result){
         echo "success";
-        header("location: ../Admin/idex.php");
+        header("location: ../Admin/index.php");
     }else{
         echo "<script>alert('failed')</script>";
         header("location: ../Admin/index.php");

@@ -2,23 +2,18 @@
     require_once("../Classes/appointment_class.php");
 
 
-    function  createAppointment_ctr($appointment_date, $appointment_day, $appoint_time){
+    function  createAppointment_ctr($title, $start_data, $end_date){
         $appointment = new Appointment;
 
-        return $appointment-> createAppointment($appointment_date, $appointment_day, $appoint_time);
+        return $appointment-> createAppointment($title, $start_data, $end_date);
     }
 
-    function deleteAppointment_ctr($appointment_id){
+    function deleteAppointment_ctr($id){
         $appointment = new Appointment;
 
-        return $appointment->deleteAppointment($appointment_id);
+        return $appointment->deleteAppointment($id);
     }
 
-    function updateAppointment_ctr($appointment_id,$appointment_date, $appointment_day, $appoint_time){
-        $appointment = new Appointment;
-
-        return $appointment->updateAppointment($appointment_id,$appointment_date, $appointment_day, $appoint_time);
-    }
 
     function getAllAppointment_ctr(){
         $appointment = new Appointment;
