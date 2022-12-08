@@ -53,7 +53,7 @@
         $mail->Subject = ($subject);
         $mail->Body = $body;
         if ($mail->send()) {
-            echo "Email is sent!";
+            header(Location:"index.php");
         } else {
             echo "Something is wrong: <br><br>" . $mail->ErrorInfo;
         }
@@ -65,7 +65,7 @@
         if (isset($_GET['sendmail'])) {
             sendmail();
         }
-    header(Location:"index.php");
+    
 ?>
 
 
