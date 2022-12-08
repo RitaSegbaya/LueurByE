@@ -53,7 +53,7 @@
         $mail->Subject = ($subject);
         $mail->Body = $body;
         if ($mail->send()) {
-            header(Location:"View/confirm.php");
+            header(Location:"index.php");
         } else {
             echo "Something is wrong: <br><br>" . $mail->ErrorInfo;
         }
