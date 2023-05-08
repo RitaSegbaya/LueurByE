@@ -207,6 +207,9 @@
 
         input.value = "";
       });
+       const trafficLayer = new google.maps.TrafficLayer();
+
+        trafficLayer.setMap(map);
     }
 
     window.initMap = initMap;
