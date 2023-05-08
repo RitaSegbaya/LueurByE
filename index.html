@@ -108,7 +108,6 @@
         });
         const card = document.getElementById("pac-card");
         const input = document.getElementById("pac-input");
-        const inputt = document.getElementById("pac-inputt");
         const biasInputElement = document.getElementById("use-location-bias");
         const strictBoundsInputElement = document.getElementById("use-strict-bounds");
         const options = {
@@ -120,7 +119,6 @@
       map.controls[google.maps.ControlPosition.TOP_LEFT].push(card);
 
       const autocomplete = new google.maps.places.Autocomplete(input, options);
-      const autocomplete = new google.maps.places.Autocomplete(inputt, options);
 
       // Bind the map's bounds (viewport) property to the autocomplete object,
       // so that the autocomplete requests use the current map bounds for the
@@ -256,7 +254,7 @@
         <input id="pac-input" type="text" placeholder="Enter a location" />
       </div>
       <div id="pac-containerr">
-        <input id="pac-inputt" type="text" placeholder="Enter destination" />
+        <input id="pac-input" type="text" placeholder="Enter destination" />
       </div>
     </div>
     <div id="map"></div>
